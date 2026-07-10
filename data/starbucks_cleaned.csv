@@ -1,0 +1,521 @@
+transaction_id,order_date,customer_id,store_name,city,product_name,category,size,quantity,unit_price_inr,discount_percent,total_amount_inr,payment_method,customer_rating,loyalty_member,order_channel
+TXN00001,2025-03-31,CUST1055,Starbucks Phoenix Mall,Mumbai,Iced Tea,Tea,Unavailable,2.0,245,5.0,465.5,Wallet,4,no,Zomato
+TXN00002,2025-12-11,CUST1091,Starbucks Koregaon Park,Pune,Blueberry Muffin,Bakery,Unavailable,1.0,215,20.0,172,UPI,4.5,no,Walk-in
+TXN00003,2025-02-16,CUST1020,Starbucks Cyber Hub,Bengaluru,Espresso,Coffee,Unavailable,1.0,215,15.0,Unavailable,UPi,6,No,app
+TXN00004,24/01/2026,CUST1142,Starbucks Cyber Hub,Bengaluru,Cappuccino,Coffee,Tall,1.0,290,0.0,290,Wallet,five,Yes,app
+TXN00005,2026-04-15,CUST1143,Starbucks Mall Road,Ludhiana,Java Chip Frappuccino,Frappuccino,Unavailable,1.0,365,15.0,Unavailable,UPi,4,No,Delivery
+TXN00006,2026-03-09,CUST1119,Starbucks Phoenix Mall,Mumbai,Espresso,Coffee,Tall,1.0,225,0.0,225,UPI,3,Unavailable,Zomato
+TXN00007,Unavailable,CUST1076,Star bucks Mall Road,Ludhiana,Blueberry Muffin,Bakery,VENTI,2.0,170,20.0,272,Cash,3,Unavailable,App
+TXN00008,2025-03-22,CUST1017,Star bucks Cyber Hub,Bengaluru,Pumpkin Spice Latte,Coffee,Venti,1.0,370,15.0,414.5,card,5,Unavailable,Unavailable
+TXN00009,2026-04-08,Unavailable,Starbucks Hitech City,Hyderabad,Mocha,Coffee,Grande,2.0,355,10.0,639,Card,3.5,No,Walk-in
+TXN00010,05-16-2025,CUST1104,Starbucks Mall Road,Ludhiana,Turkey Sandwich,Merchandise,Unavailable,-1.0,340,5.0,-323,Unavailable,5,no,App
+TXN00011,2025-04-22,CUST1114,Starbucks Hitech City,Hyderabad,Iced Tea,Tea,Grande,1.0,245,0.0,245,Unavailable,3.5,Unavailable,Walk-in
+TXN00012,2026-05-08,CUST1015,Starbucks Phoenix Mall,Mumbai,Caffè Latte,Coffee,Unavailable,1.0,Unavailable,0.0,Unavailable,card,4,no,Unavailable
+TXN00013,not available,CUST1047,Star bucks Hitech City,Hyderabad,Caramel Macchiato,Coffee,Unavailable,1.0,330,5.0,Unavailable,UPI,1,Unavailable,Swiggy
+TXN00014,25/09/2025,CUST1061,Starbucks Indiranagar,Noida,Pumpkin Spice Latte,Coffee,Unavailable,1.0,390,20.0,312,UPi,6,Yes,App
+TXN00015,2025-05-16,CUST1062,Starbucks Cyber Hub,Bengaluru,Matcha Latte,Tea,grande,1.0,345,0.0,345,Card,five,Unavailable,Zomato
+TXN00016,2025-10-16,CUST1067,Starbucks Sector-35,Gurugram,Turkey Sandwich,Food,Tall,2.0,350,0.0,700,UPI,2,Unavailable,Unavailable
+TXN00017,2026-03-14,CUST1038,Starbucks Phoenix Mall,Mumbai,Spinach Feta Wrap,Food,Venti,3.0,290,0.0,870,Unavailable,5,No,App
+TXN00018,29/12/2025,CUST1060,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Unavailable,1.0,275,15.0,233.75,Card,4,No,app
+TXN00019,2025-02-09,CUST1117,Starbucks CP,Delhi,Blueberry Muffin,Bakery,Short,2.0,215,10.0,387,Card,3,Unavailable,Swiggy
+TXN00020,12-06-2025,CUST1066,Starbucks Sector-35,Gurugram,Java Chip Frappuccino,Frappuccino,Grande,1.0,400,10.0,360,Unavailable,4.5,YES,app
+TXN00021,Unavailable,CUST1050,Starbucks Cyber Hub,Bengaluru,Java Chip Frappuccino,Frappuccino,VENTI,1.0,375,20.0,300,UPi,6,Unavailable,Walk-in
+TXN00022,11/05/2025,CUST1097,Starbucks MI Road,Jaipur,Chocolate Croissant,Bakery,grande,2.0,210,20.0,336,Unavailable,4.5,Unavailable,App
+TXN00023,Unavailable,CUST1043,Starbucks Mall Road,Ludhiana,Americano,Coffee,VENTI,1.0,250,15.0,Unavailable,UPI,Unavailable,No,Zomato
+TXN00024,03-16-2025,CUST1147,Starbucks Mall Road,Ludhiana,Mocha,Coffee,Short,1.0,320,0.0,320,Cash,4,Unavailable,App
+TXN00025,2026-04-21,CUST1031,Starbucks Phoenix Mall,Mumbai,Turkey Sandwich,Food,VENTI,1.0,385,20.0,308,Unavailable,4,Unavailable,Unavailable
+TXN00026,2025-10-11,CUST1112,Starbucks Koregaon Park,Pune,Spinach Feta Wrap,Food,VENTI,1.0,310,5.0,Unavailable,UPI,Unavailable,No,Delivery
+TXN00027,2026-04-23,CUST1107,Starbucks MI Road,Jaipur,Mocha,Coffee,Tall,2.0,320,0.0,640,Unavailable,3.5,no,App
+TXN00028,2026-05-15,CUST1007,Starbucks Indiranagar,Noida,Cappuccino,Coffee,Venti,4.0,290,5.0,Unavailable,Unavailable,five,No,App
+TXN00029,2025-07-06,CUST1054,Starbucks Phoenix Mall,Mumbai,Turkey Sandwich,Food,grande,1.0,360,0.0,360,Unavailable,3.5,YES,Walk-in
+TXN00030,2025-09-11,CUST1039,Starbucks Sector 17,Chandigarh,Matcha Latte,Unavailable,grande,3.0,325,5.0,876.25,UPi,2,No,Walk-in
+TXN00031,2026-01-20,CUST1062,Starbucks Indiranagar,Noida,Blueberry Muffin,Bakery,Grande,1.0,190,0.0,190,Card,5,YES,Unavailable
+TXN00032,2026-04-16,CUST1133,STARBUCKS Mall Road,Ludhiana,Iced Tea,Tea,Unavailable,3.0,230,0.0,690,Unavailable,3.5,no,Zomato
+TXN00033,2026-01-24,CUST1083,Starbucks Cyber Hub,Bengaluru,Cappuccino,Coffee,VENTI,1.0,315,10.0,283.5,card,Unavailable,Unavailable,Zomato
+TXN00034,05-03-2026,CUST1023,Starbucks Sector-35,Gurugram,Espresso,Food,VENTI,2.0,180,20.0,288,Unavailable,Unavailable,Unavailable,app
+TXN00035,2025-08-25,CUST1030,Starbucks Koregaon Park,Pune,Java Chip Frappuccino,Frappuccino,Short,3.0,375,15.0,956.25,Wallet,Unavailable,Unavailable,Unavailable
+TXN00036,2026-01-05,CUST1136,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Venti,-1.0,₹275,10.0,Unavailable,Unavailable,2,Yes,App
+TXN00037,2026-05-05,CUST1125,Starbucks Sector 17,Chandigarh,Pumpkin Spice Latte,Coffee,Grande,0.0,390,15.0,Unavailable,Wallet,3,Yes,Unavailable
+TXN00038,01/11/2025,CUST1015,Starbucks Mall Road,Ludhiana,Pumpkin Spice Latte,Coffee,Short,2.0,390,5.0,Unavailable,Wallet,3.5,YES,Walk-in
+TXN00039,2026-04-27,CUST1072,Starbucks MI Road,Jaipur,Caramel Macchiato,Coffee,grande,1.0,340,0.0,340,Wallet,1,no,Walk-in
+TXN00040,2025-11-11,CUST1077,Starbucks Sector 17,Chandigarh,Espresso,Coffee,Unavailable,2.0,190,0.0,380,Unavailable,2,Yes,App
+TXN00041,2025-01-22,CUST1044,Starbucks CP,Delhi,Turkey Sandwich,Food,Venti,1.0,360,10.0,Unavailable,Unavailable,1,Unavailable,Unavailable
+TXN00042,Unavailable,CUST1009,Starbucks Phoenix Mall,Mumbai,Cold Brew,Coffee,Unavailable,3.0,310,15.0,790.5,Card,2,Unavailable,Unavailable
+TXN00043,05-15-2025,CUST1124,Starbucks Sector 17,Chandigarh,Java Chip Frappuccino,Unavailable,Short,1.0,375,5.0,Unavailable,Cash,Unavailable,YES,App
+TXN00044,10-26-2025,CUST1120,Starbucks Phoenix Mall,Mumbai,Espresso,Coffee,Venti,1.0,190,5.0,Unavailable,UPI,2,YES,Unavailable
+TXN00045,2026-05-17,CUST1088,Starbucks Koregaon Park,Pune,Cappuccino,Coffee,VENTI,2.0,290,0.0,580,Wallet,5,Unavailable,Swiggy
+TXN00046,01-26-2026,CUST1038,Starbucks Mall Road,Ludhiana,Pumpkin Spice Latte,Coffee,Unavailable,4.0,free,0.0,Unavailable,UPI,4.5,Unavailable,Unavailable
+TXN00047,2026-02-12,CUST1136,Starbucks Koregaon Park,Pune,Caffè Latte,Coffee,Unavailable,1.0,285,0.0,285,Card,Unavailable,Unavailable,Walk-in
+TXN00048,13/04/2025,CUST1007,Starbucks CP,Delhi,Mocha,Coffee,VENTI,2.0,330,0.0,660,Unavailable,3.5,No,Swiggy
+TXN00049,not available,CUST1059,Starbucks CP,Delhi,Espresso,Coffee,Tall,1.0,215,0.0,215,Unavailable,3,YES,Delivery
+TXN00050,11-06-2025,CUST1027,Starbucks Koregaon Park,Pune,Cold Brew,Coffee,grande,1.0,310,10.0,Unavailable,Card,3.5,Unavailable,Unavailable
+TXN00051,2025-08-13,CUST1035,Starbucks Indiranagar,Noida,Americano,Coffee,grande,0.0,250,10.0,0,Unavailable,4,Yes,app
+TXN00052,2026-01-10,CUST1123,Starbucks Cyber Hub,Bengaluru,Chocolate Croissant,Bakery,Grande,3.0,210,20.0,504,Unavailable,3,Yes,Delivery
+TXN00053,2025-01-15,CUST1094,Starbucks CP,Delhi,Blueberry Muffin,Bakery,VENTI,4.0,215,5.0,Unavailable,UPI,4.5,Unavailable,Swiggy
+TXN00054,2025-11-06,CUST1009,Starbucks Mall Road,Ludhiana,Matcha Latte,Unavailable,Unavailable,1.0,345,5.0,ERROR,Unavailable,2,YES,Unavailable
+TXN00055,2025-10-14,CUST1113,Starbucks Indiranagar,Noida,Pumpkin Spice Latte,Coffee,VENTI,4.0,380,0.0,1520,UPi,Unavailable,Yes,Unavailable
+TXN00056,Unavailable,CUST1052,Starbucks Indiranagar,Noida,Americano,Coffee,Short,0.0,230,0.0,0,Wallet,4,YES,Delivery
+TXN00057,06-28-2025,Unavailable,Starbucks Sector-35,Gurugram,Blueberry Muffin,Bakery,Venti,2.0,170,0.0,Unavailable,Unavailable,3,Unavailable,Walk-in
+TXN00058,08-15-2025,CUST1133,Starbucks CP,Delhi,Chocolate Croissant,FOOD,Unavailable,3.0,235,5.0,Unavailable,Unavailable,6,Unavailable,Walk-in
+TXN00059,10/05/2025,CUST1140,Starbucks Indiranagar,Noida,Matcha Latte,Tea,grande,1.0,345,0.0,345,Unavailable,4.5,Unavailable,Unavailable
+TXN00060,2026-02-28,CUST1106,Starbucks Mall Road,Ludhiana,Cold Brew,Coffee,grande,-1.0,290,5.0,-275.5,UPi,3.5,No,Unavailable
+TXN00061,2025-03-03,CUST1090,Starbucks Hitech City,Hyderabad,Cold Brew,Coffee,Tall,1.0,290,20.0,232,card,2,Unavailable,Zomato
+TXN00062,12-25-2025,CUST1146,Starbucks Cyber Hub,Bengaluru,Cappuccino,Coffee,Tall,2.0,290,0.0,580,card,Unavailable,Yes,Delivery
+TXN00063,15/02/2026,CUST1007,Starbucks Phoenix Mall,Mumbai,Americano,Coffee,Unavailable,3.0,250,15.0,637.5,UPi,1,No,app
+TXN00064,2025-02-20,CUST1108,Starbucks Phoenix Mall,Mumbai,Americano,Coffee,Grande,1.0,275,0.0,Unavailable,UPi,1,no,Walk-in
+TXN00065,2025-02-26,CUST1054,Starbucks Sector 17,Chandigarh,Americano,Coffee,Grande,0.0,250,5.0,Unavailable,Card,5,no,Unavailable
+TXN00066,2025-02-13,CUST1019,Star bucks Hitech City,Hyderabad,Caramel Macchiato,Coffee,Unavailable,2.0,340,5.0,Unavailable,card,five,Yes,Unavailable
+TXN00067,19/04/2025,CUST1134,Starbucks CP,Delhi,Caffè Latte,Coffee,Short,1.0,275,5.0,Unavailable,UPi,4.5,No,Walk-in
+TXN00068,2025-06-01,CUST1050,Starbucks Hitech City,Hyderabad,Espresso,Coffee,Grande,-1.0,200,5.0,-190,Cash,4.5,Unavailable,Unavailable
+TXN00069,2025-11-20,CUST1113,Starbucks Indiranagar,Noida,Matcha Latte,Tea,VENTI,1.0,370,5.0,Unavailable,UPI,6,YES,Unavailable
+TXN00070,29/01/2026,CUST1010,Starbucks Indiranagar,Noida,Matcha Latte,Merchandise,VENTI,2.0,370,0.0,740,Unavailable,2,Unavailable,Delivery
+TXN00071,2026-03-25,CUST1040,Star bucks Phoenix Mall,Mumbai,Caffè Latte,Coffee,VENTI,3.0,310,0.0,930,Card,five,Unavailable,app
+TXN00072,08/12/2025,CUST1089,Starbucks Indiranagar,Noida,Cold Brew,Coffee,Venti,4.0,310,10.0,1116,UPI,5,YES,Unavailable
+TXN00073,2025-01-19,CUST1054,Starbucks MI Road,Jaipur,Iced Tea,Tea,Venti,1.0,255,5.0,Unavailable,Cash,2,Yes,Zomato
+TXN00074,2025-05-15,CUST1042,Starbucks Hitech City,Hyderabad,Spinach Feta Wrap,Food,Short,-1.0,free,5.0,Unavailable,Unavailable,1,Unavailable,Zomato
+TXN00075,26/04/2026,CUST1146,Starbucks Koregaon Park,Pune,Blueberry Muffin,Bakery,Unavailable,2.0,190,5.0,Unavailable,Unavailable,4,No,Swiggy
+TXN00076,2025-04-16,CUST1041,Starbucks Hitech City,Hyderabad,Blueberry Muffin,Bakery,Short,2.0,215,0.0,Unavailable,Unavailable,Unavailable,YES,App
+TXN00077,23/11/2025,CUST1085,Starbucks Hitech City,Hyderabad,Java Chip Frappuccino,Unavailable,Unavailable,2.0,375,20.0,600,Cash,2,Unavailable,Unavailable
+TXN00078,2026-03-10,CUST1077,Starbucks Phoenix Mall,Mumbai,Matcha Latte,Tea,Unavailable,1.0,325,10.0,292.5,UPI,4,Yes,Unavailable
+TXN00079,2025-12-28,CUST1021,Starbucks Koregaon Park,Pune,Pumpkin Spice Latte,Coffee,Tall,-1.0,405,5.0,-384.75,Unavailable,3,no,App
+TXN00080,2025-04-17,CUST1139,Starbucks CP,Delhi,Iced Tea,Tea,Unavailable,2.0,230,0.0,460,Unavailable,4.5,Unavailable,Delivery
+TXN00081,2025-02-12,CUST1101,starbucks Cyber Hub,Bengaluru,Blueberry Muffin,Bakery,Short,0.0,205,0.0,0,card,5,YES,App
+TXN00082,2026-01-31,CUST1127,Starbucks MI Road,Jaipur,Spinach Feta Wrap,Food,Grande,1.0,310,15.0,263.5,Unavailable,3.5,Yes,Unavailable
+TXN00083,30/10/2025,CUST1109,Star bucks CP,Delhi,Pumpkin Spice Latte,Coffee,VENTI,-1.0,380,10.0,-342,Unavailable,4.5,YES,App
+TXN00084,2026-03-25,CUST1093,Starbucks Sector 17,Chandigarh,Cold Brew,Coffee,Unavailable,3.0,310,5.0,ERROR,UPi,3,YES,Unavailable
+TXN00085,2025-04-27,CUST1132,Starbucks Koregaon Park,Pune,Blueberry Muffin,Bakery,grande,3.0,190,20.0,456,Unavailable,4.5,No,Zomato
+TXN00086,01/04/2026,CUST1081,Starbucks CP,Delhi,Chocolate Croissant,Bakery,grande,2.0,210,0.0,420,card,3,No,Delivery
+TXN00087,27/01/2025,CUST1119,Starbucks Cyber Hub,Bengaluru,Blueberry Muffin,Bakery,Grande,1.0,180,5.0,171,UPI,3,YES,Unavailable
+TXN00088,2025-11-21,CUST1132,Starbucks CP,Delhi,Chocolate Croissant,Bakery,Venti,4.0,210,20.0,672,Cash,6,no,App
+TXN00089,08-19-2025,CUST1020,Starbucks Hitech City,Hyderabad,Spinach Feta Wrap,Food,Venti,2.0,300,0.0,600,card,3,Unavailable,Walk-in
+TXN00090,12-12-2025,CUST1020,Starbucks Indiranagar,Noida,Espresso,Coffee,Short,1.0,200,0.0,Unavailable,Unavailable,3,Unavailable,App
+TXN00091,2026-02-20,CUST1015,Starbucks Cyber Hub,Bengaluru,Matcha Latte,Tea,VENTI,2.0,345,10.0,621,Cash,Unavailable,YES,app
+TXN00092,2025-11-23,CUST1115,Starbucks Sector-35,Gurugram,Chocolate Croissant,Bakery,Unavailable,4.0,210,0.0,840,Unavailable,4.5,No,Delivery
+TXN00093,2026-04-24,CUST1005,Starbucks Mall Road,Ludhiana,Spinach Feta Wrap,Food,Short,3.0,310,5.0,883.5,Wallet,3,Unavailable,app
+TXN00094,2026-03-18,CUST1093,Starbucks Sector 17,Chandigarh,Caffè Latte,FOOD,Short,0.0,285,10.0,0,UPi,five,Unavailable,Zomato
+TXN00095,Unavailable,CUST1093,starbucks Indiranagar,Noida,Cold Brew,Coffee,Tall,-1.0,310,10.0,-279,Card,6,Yes,Delivery
+TXN00096,24/05/2025,CUST1041,Starbucks Indiranagar,Noida,Chocolate Croissant,Bakery,VENTI,-1.0,210,5.0,Unavailable,Unavailable,3,Unavailable,Zomato
+TXN00097,Unavailable,CUST1147,Starbucks Indiranagar,Noida,Matcha Latte,Tea,Unavailable,3.0,Unavailable,0.0,Unavailable,Cash,3.5,Unavailable,Swiggy
+TXN00098,2025-06-05,CUST1128,Starbucks Mall Road,Ludhiana,Caffè Latte,Coffee,Tall,1.0,300,5.0,285,Cash,1,Unavailable,Swiggy
+TXN00099,2026-04-16,CUST1067,Starbucks Hitech City,Hyderabad,Espresso,Coffee,grande,0.0,215,5.0,Unavailable,Wallet,3.5,YES,Zomato
+TXN00100,08/10/2025,CUST1139,Starbucks Hitech City,Hyderabad,Chocolate Croissant,Bakery,Venti,0.0,225,15.0,0,card,Unavailable,Yes,Zomato
+TXN00101,2025-10-05,CUST1150,Starbucks Cyber Hub,Bengaluru,Chocolate Croissant,FOOD,Tall,2.0,225 INR,5.0,Unavailable,UPI,4,no,app
+TXN00102,2026-05-03,CUST1073,Starbucks Phoenix Mall,Mumbai,Chocolate Croissant,Bakery,Grande,1.0,225,0.0,225,Wallet,five,Unavailable,App
+TXN00103,2025-10-24,CUST1027,Starbucks Mall Road,Ludhiana,Turkey Sandwich,Food,Unavailable,1.0,360,0.0,360,Cash,3.5,Unavailable,Unavailable
+TXN00104,2025-01-15,CUST1049,Starbucks Koregaon Park,Pune,Americano,Coffee,Unavailable,3.0,230,0.0,690,UPi,Unavailable,Yes,Unavailable
+TXN00105,2025-08-30,CUST1084,Starbucks Sector 17,Chandigarh,Iced Tea,Tea,Short,0.0,220,15.0,Unavailable,Card,4,Unavailable,Walk-in
+TXN00106,2025-08-15,CUST1116,Starbucks Koregaon Park,Pune,Matcha Latte,Tea,Unavailable,-1.0,345,10.0,-310.5,Wallet,2,No,Walk-in
+TXN00107,2026-06-02,CUST1042,Star bucks CP,Delhi,Espresso,Coffee,Grande,3.0,215,0.0,595,Unavailable,6,Yes,Unavailable
+TXN00108,2025-11-12,CUST1000,Starbucks Mall Road,Ludhiana,Caramel Macchiato,Coffee,Grande,1.0,340,0.0,Unavailable,Card,five,Yes,Unavailable
+TXN00109,22/01/2026,CUST1138,Starbucks MI Road,Jaipur,Caffè Latte,Coffee,Venti,1.0,275,20.0,320,Wallet,4.5,Yes,App
+TXN00110,2025-09-11,CUST1048,Starbucks MI Road,Jaipur,Americano,Coffee,Tall,-1.0,265,20.0,-112,Wallet,five,No,Walk-in
+TXN00111,08-28-2025,CUST1014,Starbucks Sector 17,Chandigarh,Cold Brew,Coffee,VENTI,1.0,310,0.0,Unavailable,UPi,4,No,Zomato
+TXN00112,2025-06-29,CUST1088,Starbucks Koregaon Park,Pune,Turkey Sandwich,Food,VENTI,-1.0,375,5.0,-356.25,Unavailable,3.5,no,Delivery
+TXN00113,2025-05-28,CUST1105,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,grande,-1.0,275,5.0,ERROR,Wallet,4,YES,Walk-in
+TXN00114,02-10-2025,CUST1150,Starbucks Sector 17,Chandigarh,Turkey Sandwich,Food,VENTI,1.0,360,5.0,Unavailable,card,4,Yes,Swiggy
+TXN00115,2026-02-11,CUST1072,Starbucks Indiranagar,Noida,Turkey Sandwich,Food,grande,1.0,375,5.0,Unavailable,UPi,4,Unavailable,Unavailable
+TXN00116,2025-02-16,CUST1066,Starbucks Hitech City,Hyderabad,Matcha Latte,Tea,grande,0.0,360,15.0,0,Cash,4,No,app
+TXN00117,2026-05-16,CUST1090,Starbucks Hitech City,Hyderabad,Mocha,Coffee,Tall,2.0,355,5.0,Unavailable,Card,five,Yes,App
+TXN00118,12/04/2026,CUST1123,Starbucks Sector 17,Chandigarh,Blueberry Muffin,Bakery,grande,2.0,Unavailable,0.0,Unavailable,Card,3,Unavailable,Unavailable
+TXN00119,09-16-2025,CUST1020,Starbucks Phoenix Mall,Mumbai,Blueberry Muffin,Bakery,Short,1.0,180,0.0,180,card,five,Unavailable,Walk-in
+TXN00120,2026-05-03,CUST1043,Starbucks MI Road,Jaipur,Iced Tea,Tea,VENTI,1.0,245,0.0,245,UPI,3.5,Unavailable,App
+TXN00121,Unavailable,CUST1004,Starbucks Sector 17,Chandigarh,Mocha,Coffee,Unavailable,1.0,355,5.0,Unavailable,UPI,5,YES,Delivery
+TXN00122,24/05/2025,CUST1088,Starbucks MI Road,Jaipur,Pumpkin Spice Latte,Coffee,VENTI,4.0,415,5.0,Unavailable,Unavailable,4.5,YES,App
+TXN00123,19/03/2026,CUST1097,Starbucks Sector-35,Gurugram,Iced Tea,Tea,Grande,0.0,230,5.0,0,UPI,4.5,YES,Delivery
+TXN00124,11-12-2025,CUST1026,starbucks Hitech City,Hyderabad,Java Chip Frappuccino,Frappuccino,Unavailable,1.0,390,20.0,312,UPI,4.5,Yes,Walk-in
+TXN00125,not available,CUST1146,Starbucks Sector 17,Chandigarh,Cappuccino,Coffee,grande,1.0,290,15.0,Unavailable,card,3.5,YES,Unavailable
+TXN00126,10/09/2025,CUST1117,Starbucks CP,Delhi,Caramel Macchiato,coffee,VENTI,4.0,340,10.0,1224,Unavailable,Unavailable,YES,Unavailable
+TXN00127,2025-07-25,CUST1101,Starbucks Hitech City,Hyderabad,Cappuccino,Coffee,Unavailable,1.0,315,0.0,Unavailable,Wallet,5,YES,Unavailable
+TXN00128,2025-07-04,CUST1053,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Unavailable,3.0,250,0.0,750,Unavailable,6,No,Zomato
+TXN00129,2026-05-06,CUST1107,Starbucks Mall Road,Ludhiana,Mocha,Coffee,Grande,4.0,320,20.0,1024,UPI,2,No,app
+TXN00130,22/09/2025,CUST1142,starbucks MI Road,Jaipur,Caramel Macchiato,Coffee,Unavailable,1.0,320,20.0,Unavailable,Unavailable,4.5,Unavailable,Delivery
+TXN00131,2025-05-26,CUST1052,Star bucks CP,Delhi,Cappuccino,Coffee,VENTI,1.0,290,10.0,361,UPI,3.5,YES,App
+TXN00132,2025-06-13,CUST1118,Starbucks Cyber Hub,Bengaluru,Blueberry Muffin,Bakery,Unavailable,3.0,170,0.0,510,Unavailable,3,Yes,Swiggy
+TXN00133,03-06-2025,CUST1047,Starbucks Koregaon Park,Pune,Matcha Latte,Tea,VENTI,1.0,345,5.0,427.75,Unavailable,4,Unavailable,Unavailable
+TXN00134,2025-05-18,CUST1029,Starbucks Indiranagar,Noida,Pumpkin Spice Latte,Coffee,Unavailable,0.0,390,0.0,0,Cash,5,Unavailable,Unavailable
+TXN00135,05-24-2025,CUST1013,Starbucks Phoenix Mall,Mumbai,Java Chip Frappuccino,Frappuccino,Short,-1.0,390,0.0,-390,Unavailable,five,Unavailable,Unavailable
+TXN00136,2025-08-14,CUST1137,Starbucks CP,Delhi,Java Chip Frappuccino,Frappuccino,Unavailable,0.0,375,5.0,Unavailable,UPI,3,Unavailable,Walk-in
+TXN00137,03-12-2026,CUST1063,Starbucks Mall Road,Ludhiana,Americano,Coffee,VENTI,3.0,275,5.0,Unavailable,UPI,1,no,Walk-in
+TXN00138,2025-05-23,CUST1015,Starbucks MI Road,Jaipur,Blueberry Muffin,Bakery,Venti,1.0,180,15.0,Unavailable,UPi,6,Unavailable,Zomato
+TXN00139,10-11-2025,CUST1063,Starbucks MI Road,Jaipur,Americano,Coffee,Unavailable,-1.0,275,0.0,-275,Unavailable,3,No,Zomato
+TXN00140,2026-01-13,CUST1000,Starbucks Sector-35,Gurugram,Iced Tea,Tea,Grande,1.0,230,0.0,Unavailable,Unavailable,3.5,No,Unavailable
+TXN00141,12/05/2026,CUST1012,Starbucks Sector-35,Gurugram,Spinach Feta Wrap,Food,Tall,3.0,310,10.0,837,UPI,4.5,No,Unavailable
+TXN00142,14/09/2025,CUST1042,STARBUCKS Koregaon Park,Pune,Matcha Latte,coffee,Short,1.0,335,10.0,301.5,Unavailable,3,Unavailable,Walk-in
+TXN00143,01/04/2026,CUST1030,Starbucks Indiranagar,Noida,Chocolate Croissant,Bakery,Unavailable,0.0,200,0.0,ERROR,UPI,3,Unavailable,Walk-in
+TXN00144,2025-01-09,CUST1054,Star bucks Phoenix Mall,Mumbai,Cold Brew,Coffee,Unavailable,1.0,310,20.0,248,Wallet,3,Yes,Walk-in
+TXN00145,2025-09-11,CUST1141,Starbucks Hitech City,Hyderabad,Caramel Macchiato,Coffee,Tall,4.0,340,15.0,1156,card,3.5,No,Swiggy
+TXN00146,not available,CUST1099,STARBUCKS MI Road,Jaipur,Chocolate Croissant,Bakery,Venti,1.0,225,5.0,213.75,Unavailable,Unavailable,Yes,App
+TXN00147,29/05/2026,CUST1021,Starbucks Sector-35,Gurugram,Pumpkin Spice Latte,Frappuccino,Grande,1.0,380,0.0,380,card,3.5,Yes,Swiggy
+TXN00148,2025-09-02,CUST1111,Starbucks MI Road,Jaipur,Blueberry Muffin,Bakery,Grande,4.0,190,0.0,ERROR,Card,5,Unavailable,Delivery
+TXN00149,10-03-2025,CUST1085,Starbucks Phoenix Mall,Mumbai,Chocolate Croissant,FOOD,Unavailable,-1.0,210,5.0,Unavailable,Unavailable,5,Unavailable,app
+TXN00150,2025-04-29,CUST1011,Starbucks Koregaon Park,Pune,Caffè Latte,Coffee,Unavailable,1.0,₹285,15.0,Unavailable,Cash,3,No,App
+TXN00151,2025-11-24,CUST1095,Starbucks Cyber Hub,Bengaluru,Espresso,Coffee,Unavailable,4.0,215,5.0,Unavailable,UPI,4.5,no,Zomato
+TXN00152,26/10/2025,CUST1118,Starbucks Sector 17,Chandigarh,Blueberry Muffin,Bakery,Short,1.0,190,5.0,Unavailable,Wallet,Unavailable,No,App
+TXN00153,2026-01-21,CUST1060,Star bucks Hitech City,Hyderabad,Turkey Sandwich,Food,Venti,-1.0,350,15.0,-297.5,card,1,Yes,App
+TXN00154,2025-03-28,CUST1100,Starbucks Mall Road,Ludhiana,Turkey Sandwich,Food,Venti,-1.0,385,20.0,-308,Wallet,4.5,YES,Zomato
+TXN00155,03-18-2025,CUST1149,Starbucks Mall Road,Ludhiana,Spinach Feta Wrap,Food,VENTI,4.0,335,15.0,1139,Unavailable,4.5,Yes,app
+TXN00156,11-08-2025,CUST1083,Starbucks CP,Delhi,Blueberry Muffin,Bakery,Unavailable,0.0,190,10.0,0,Card,2,Unavailable,Zomato
+TXN00157,2025-09-13,CUST1035,Starbucks Sector-35,Gurugram,Americano,Coffee,Short,1.0,240,20.0,192,Cash,Unavailable,No,Unavailable
+TXN00158,2025-07-22,CUST1084,Starbucks Sector 17,Chandigarh,Cappuccino,Coffee,Unavailable,1.0,305,10.0,374.5,Unavailable,2,Yes,Unavailable
+TXN00159,02/06/2025,CUST1062,Starbucks Koregaon Park,Pune,Iced Tea,Tea,Unavailable,2.0,230,0.0,460,Card,5,Yes,Zomato
+TXN00160,01-03-2026,CUST1088,Starbucks Sector 17,Chandigarh,Java Chip Frappuccino,Frappuccino,Venti,-1.0,365,5.0,-346.75,Card,five,YES,Swiggy
+TXN00161,2025-08-27,CUST1061,Starbucks Sector-35,Gurugram,Caffè Latte,Coffee,Tall,2.0,310,0.0,620,Wallet,Unavailable,Unavailable,Unavailable
+TXN00162,03/01/2026,CUST1145,Starbucks Indiranagar,Noida,Cappuccino,Coffee,Unavailable,1.0,315,0.0,315,card,4,No,Unavailable
+TXN00163,2025-12-06,CUST1045,Starbucks Sector-35,Gurugram,Caffè Latte,Coffee,Tall,1.0,275,5.0,Unavailable,Cash,1,Unavailable,Delivery
+TXN00164,2025-12-11,CUST1040,Starbucks MI Road,Jaipur,Blueberry Muffin,Bakery,Unavailable,3.0,190,0.0,570,UPi,4.5,No,app
+TXN00165,Unavailable,CUST1008,Starbucks Koregaon Park,Pune,Mocha,Coffee,Short,1.0,355,20.0,284,UPI,5,no,Delivery
+TXN00166,2025-12-10,CUST1063,Starbucks CP,Delhi,Cappuccino,Coffee,Tall,3.0,280,15.0,714,Card,3,no,Unavailable
+TXN00167,04-14-2025,CUST1057,Starbucks Hitech City,Hyderabad,Chocolate Croissant,Bakery,grande,4.0,200,5.0,Unavailable,Card,3.5,YES,Zomato
+TXN00168,not available,CUST1111,Starbucks CP,Delhi,Cold Brew,Bakery,Short,1.0,310,0.0,310,Unavailable,five,Unavailable,Zomato
+TXN00169,2026-05-18,CUST1109,Starbucks Indiranagar,Noida,Iced Tea,Tea,Unavailable,1.0,220,0.0,220,Wallet,3.5,Yes,App
+TXN00170,28/04/2026,CUST1023,Starbucks Koregaon Park,Pune,Mocha,Coffee,Unavailable,1.0,330,5.0,Unavailable,UPi,2,No,Unavailable
+TXN00171,2025-04-10,CUST1138,Star bucks Indiranagar,Noida,Caffè Latte,Coffee,Tall,2.0,285,5.0,541.5,Unavailable,5,Unavailable,Unavailable
+TXN00172,Unavailable,CUST1044,Star bucks Koregaon Park,Pune,Espresso,Coffee,Short,1.0,200,5.0,Unavailable,Cash,Unavailable,Yes,Unavailable
+TXN00173,10/03/2025,CUST1141,Starbucks Koregaon Park,Pune,Cold Brew,Coffee,Tall,2.0,310,0.0,620,Unavailable,6,Yes,Unavailable
+TXN00174,2025-10-20,CUST1098,Starbucks Indiranagar,Noida,Caramel Macchiato,Coffee,Venti,1.0,340,0.0,Unavailable,card,2,no,Delivery
+TXN00175,2025-02-20,Unavailable,Starbucks Hitech City,Hyderabad,Pumpkin Spice Latte,Coffee,Grande,4.0,405,0.0,1620,Wallet,3.5,No,Zomato
+TXN00176,Unavailable,CUST1124,Starbucks Indiranagar,Noida,Chocolate Croissant,Bakery,Venti,3.0,235,10.0,634.5,UPI,3.5,YES,Unavailable
+TXN00177,2025-07-25,CUST1012,Starbucks Cyber Hub,Bengaluru,Caramel Macchiato,Coffee,Unavailable,1.0,340,0.0,Unavailable,Unavailable,3,Unavailable,Walk-in
+TXN00178,12-25-2025,CUST1066,Starbucks Mall Road,Ludhiana,Iced Tea,Merchandise,Unavailable,1.0,230,5.0,Unavailable,Card,3,No,Swiggy
+TXN00179,2025-01-10,CUST1044,Star bucks Sector-35,Gurugram,Spinach Feta Wrap,Food,grande,2.0,free,10.0,Unavailable,card,3.5,no,Unavailable
+TXN00180,2026-02-11,CUST1095,Starbucks Sector-35,Gurugram,Spinach Feta Wrap,Food,Grande,2.0,310,5.0,Unavailable,Unavailable,5,Yes,app
+TXN00181,09-04-2025,CUST1103,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Unavailable,2.0,275,10.0,495,card,5,YES,Unavailable
+TXN00182,2026-05-03,CUST1043,Starbucks Cyber Hub,Bengaluru,Java Chip Frappuccino,Frappuccino,Grande,1.0,355,5.0,Unavailable,Unavailable,4.5,No,Zomato
+TXN00183,11-11-2025,CUST1095,Starbucks Cyber Hub,Bengaluru,Chocolate Croissant,Bakery,Unavailable,1.0,235,15.0,199.75,Card,2,Unavailable,Walk-in
+TXN00184,2025-06-04,CUST1145,Starbucks Koregaon Park,Pune,Matcha Latte,Tea,Grande,1.0,345,20.0,ERROR,Unavailable,five,YES,Delivery
+TXN00185,06-12-2025,CUST1022,Starbucks Phoenix Mall,Mumbai,Cappuccino,Coffee,Unavailable,0.0,270,10.0,0,Unavailable,4,no,App
+TXN00186,05/01/2025,CUST1088,Starbucks Sector-35,Gurugram,Caffè Latte,Coffee,grande,3.0,300,0.0,900,Cash,4.5,Yes,App
+TXN00187,2025-05-18,CUST1048,Starbucks MI Road,Jaipur,Americano,Coffee,Tall,-1.0,250,5.0,Unavailable,Wallet,4.5,No,Delivery
+TXN00188,08/02/2025,CUST1136,Starbucks Hitech City,Hyderabad,Mocha,Coffee,Tall,-1.0,330,0.0,Unavailable,UPI,2,no,Unavailable
+TXN00189,14/04/2025,CUST1035,Starbucks Sector 17,Chandigarh,Java Chip Frappuccino,Frappuccino,Grande,0.0,375,0.0,0,card,4,Yes,Walk-in
+TXN00190,2025-10-30,CUST1053,Starbucks Hitech City,Hyderabad,Matcha Latte,Tea,Tall,2.0,335,5.0,Unavailable,UPI,4,Yes,Unavailable
+TXN00191,2026-04-13,CUST1025,Starbucks Koregaon Park,Pune,Caramel Macchiato,Coffee,VENTI,-1.0,365,0.0,-365,UPi,2,no,Walk-in
+TXN00192,25/03/2026,CUST1095,Starbucks Hitech City,Hyderabad,Cold Brew,Coffee,Unavailable,1.0,290,0.0,290,card,3,no,Unavailable
+TXN00193,Unavailable,CUST1145,Starbucks Sector 17,Chandigarh,Blueberry Muffin,Bakery,VENTI,1.0,215,0.0,215,Card,3,Unavailable,Delivery
+TXN00194,11-18-2025,CUST1134,Starbucks CP,Delhi,Matcha Latte,Tea,VENTI,4.0,325,5.0,Unavailable,UPI,1,no,Swiggy
+TXN00195,2025-06-10,CUST1042,Star bucks Indiranagar,Noida,Matcha Latte,Tea,grande,4.0,360,0.0,1440,Card,five,Unavailable,Swiggy
+TXN00196,2026-04-04,CUST1080,Starbucks Mall Road,Ludhiana,Espresso,Coffee,Grande,2.0,200,0.0,400,Unavailable,Unavailable,no,App
+TXN00197,04-13-2026,CUST1057,Starbucks Sector-35,Gurugram,Espresso,Coffee,Unavailable,1.0,225,10.0,202.5,UPi,five,Unavailable,Unavailable
+TXN00198,2025-10-26,CUST1042,Starbucks Hitech City,Hyderabad,Cold Brew,Coffee,Unavailable,2.0,325,0.0,650,UPI,4.5,YES,Swiggy
+TXN00199,Unavailable,CUST1150,Starbucks Cyber Hub,Bengaluru,Mocha,Coffee,Venti,4.0,355,5.0,1349,Unavailable,Unavailable,Yes,App
+TXN00200,2025-06-27,CUST1082,Starbucks Phoenix Mall,Mumbai,Espresso,Coffee,Short,1.0,225,5.0,Unavailable,card,five,no,app
+TXN00201,2025-11-18,CUST1074,Starbucks Sector-35,Gurugram,Americano,Coffee,VENTI,1.0,240,20.0,ERROR,UPI,6,YES,Unavailable
+TXN00202,2025-04-20,CUST1014,Starbucks MI Road,Jaipur,Pumpkin Spice Latte,Coffee,grande,4.0,405,5.0,Unavailable,card,5,No,App
+TXN00203,2025-08-18,CUST1073,Star bucks Mall Road,Ludhiana,Chocolate Croissant,Bakery,VENTI,-1.0,Unavailable,0.0,Unavailable,Card,4.5,Yes,Zomato
+TXN00204,2025-07-21,CUST1019,Starbucks Indiranagar,Noida,Mocha,Coffee,Unavailable,0.0,355,5.0,0,Card,4.5,no,Zomato
+TXN00205,Unavailable,CUST1013,Starbucks Hitech City,Hyderabad,Espresso,Coffee,grande,1.0,190,10.0,Unavailable,Unavailable,1,Unavailable,app
+TXN00206,2025-06-13,CUST1023,Star bucks Sector-35,Gurugram,Cold Brew,Coffee,VENTI,-1.0,310,5.0,-294.5,UPi,3,YES,Swiggy
+TXN00207,09-07-2025,CUST1097,Starbucks Hitech City,Hyderabad,Blueberry Muffin,Bakery,grande,-1.0,190,0.0,-190,Card,2,Unavailable,app
+TXN00208,Unavailable,Unavailable,Starbucks Cyber Hub,Bengaluru,Espresso,Coffee,Short,0.0,200,0.0,0,Unavailable,5,Yes,Swiggy
+TXN00209,2025-12-06,CUST1045,Starbucks Sector 17,Chandigarh,Espresso,Coffee,Short,4.0,215,0.0,860,card,3,no,Unavailable
+TXN00210,03-06-2025,CUST1091,Starbucks CP,Delhi,Matcha Latte,Tea,grande,3.0,345,0.0,1035,UPI,3.5,YES,Unavailable
+TXN00211,2026-02-05,CUST1095,Starbucks Sector-35,Gurugram,Java Chip Frappuccino,Frappuccino,Unavailable,1.0,390 INR,5.0,Unavailable,UPI,3,YES,Swiggy
+TXN00212,07-08-2025,CUST1049,Starbucks Sector-35,Gurugram,Chocolate Croissant,Bakery,Tall,3.0,225,5.0,641.25,Unavailable,3.5,Unavailable,Walk-in
+TXN00213,01/01/2026,CUST1025,Starbucks Mall Road,Ludhiana,Americano,Coffee,Unavailable,1.0,250,5.0,237.5,Unavailable,6,YES,Zomato
+TXN00214,2025-11-17,CUST1111,Starbucks MI Road,Jaipur,Chocolate Croissant,Bakery,VENTI,1.0,210,15.0,Unavailable,Unavailable,4.5,no,Unavailable
+TXN00215,24/05/2025,CUST1019,STARBUCKS Indiranagar,Noida,Cappuccino,Coffee,Tall,-1.0,290,0.0,-290,Unavailable,3,Unavailable,Swiggy
+TXN00216,2025-10-25,CUST1023,Starbucks Hitech City,Hyderabad,Turkey Sandwich,Frappuccino,Venti,-1.0,360,5.0,Unavailable,Cash,3,no,Delivery
+TXN00217,2026-05-15,CUST1059,Starbucks Sector 17,Chandigarh,Caramel Macchiato,Coffee,VENTI,1.0,340,5.0,Unavailable,Unavailable,4.5,no,Unavailable
+TXN00218,2025-06-28,CUST1150,Starbucks Indiranagar,Noida,Turkey Sandwich,Merchandise,Unavailable,-1.0,340,10.0,-306,Wallet,5,Unavailable,Unavailable
+TXN00219,2025-05-23,CUST1131,Starbucks Sector 17,Chandigarh,Cappuccino,Coffee,VENTI,0.0,290,5.0,Unavailable,UPI,6,Unavailable,Swiggy
+TXN00220,2025-06-15,CUST1032,Starbucks Mall Road,Ludhiana,Java Chip Frappuccino,Frappuccino,Tall,1.0,390,5.0,Unavailable,Cash,Unavailable,Yes,Delivery
+TXN00221,2026-04-28,CUST1105,Starbucks CP,Delhi,Americano,Coffee,Venti,4.0,250,0.0,1000,card,5,No,app
+TXN00222,01-17-2025,CUST1129,Starbucks MI Road,Jaipur,Turkey Sandwich,Food,Venti,1.0,360,5.0,342,Unavailable,3.5,Unavailable,App
+TXN00223,2025-01-02,CUST1011,Starbucks Phoenix Mall,Mumbai,Turkey Sandwich,Food,Unavailable,1.0,360,0.0,360,Unavailable,Unavailable,YES,Walk-in
+TXN00224,2026-02-23,CUST1001,Starbucks Indiranagar,Noida,Java Chip Frappuccino,Frappuccino,VENTI,2.0,375,0.0,ERROR,Unavailable,5,YES,Walk-in
+TXN00225,2025-10-10,CUST1141,Starbucks MI Road,Jaipur,Caramel Macchiato,Coffee,Unavailable,2.0,340,10.0,612,card,five,YES,app
+TXN00226,2025-06-15,CUST1086,Starbucks Mall Road,Ludhiana,Blueberry Muffin,Bakery,Tall,1.0,205,0.0,205,Cash,4,no,App
+TXN00227,2026-01-15,CUST1098,Starbucks CP,Delhi,Blueberry Muffin,Bakery,grande,0.0,180,20.0,0,Card,2,No,Unavailable
+TXN00228,2025-08-26,CUST1061,Starbucks Sector-35,Gurugram,Matcha Latte,Unavailable,VENTI,2.0,345,0.0,740,Unavailable,6,no,Swiggy
+TXN00229,Unavailable,CUST1103,Starbucks Indiranagar,Noida,Espresso,Tea,Grande,-1.0,180,10.0,-162,UPI,five,Unavailable,Zomato
+TXN00230,2026-03-30,CUST1062,Starbucks Indiranagar,Noida,Cappuccino,Coffee,Unavailable,-1.0,315,10.0,-283.5,Card,five,no,Walk-in
+TXN00231,2025-01-10,CUST1102,Starbucks Hitech City,Hyderabad,Americano,Food,VENTI,2.0,265,15.0,400.5,UPi,3.5,No,Zomato
+TXN00232,2025-09-29,CUST1063,Starbucks Cyber Hub,Bengaluru,Caramel Macchiato,Coffee,Grande,2.0,355,5.0,Unavailable,UPI,4,Unavailable,Unavailable
+TXN00233,Unavailable,CUST1071,Starbucks Hitech City,Hyderabad,Pumpkin Spice Latte,Unavailable,Unavailable,0.0,370,15.0,100,Card,6,Unavailable,app
+TXN00234,2025-01-09,CUST1148,Starbucks Sector-35,Gurugram,Java Chip Frappuccino,Frappuccino,Venti,1.0,400,5.0,Unavailable,card,2,No,Zomato
+TXN00235,2026-01-17,CUST1115,Starbucks MI Road,Jaipur,Matcha Latte,Tea,Short,3.0,345,0.0,1035,UPI,Unavailable,Unavailable,Zomato
+TXN00236,2025-01-10,CUST1132,Starbucks Phoenix Mall,Mumbai,Blueberry Muffin,Bakery,grande,4.0,190,5.0,722,Card,3,no,Walk-in
+TXN00237,24/09/2025,CUST1065,Starbucks Mall Road,Ludhiana,Chocolate Croissant,Bakery,Short,2.0,200,5.0,Unavailable,Cash,2,YES,app
+TXN00238,05-29-2025,CUST1086,Starbucks Indiranagar,Noida,Cappuccino,Coffee,Grande,0.0,290,0.0,0,UPI,3.5,No,app
+TXN00239,01/04/2026,CUST1115,Starbucks MI Road,Jaipur,Mocha,Coffee,grande,2.0,345,10.0,ERROR,UPI,6,No,Delivery
+TXN00240,27/03/2025,CUST1021,Starbucks Sector 17,Chandigarh,Java Chip Frappuccino,Frappuccino,Short,0.0,355,5.0,Unavailable,card,1,no,Delivery
+TXN00241,2026-04-24,CUST1138,Starbucks Hitech City,Hyderabad,Caramel Macchiato,Coffee,Unavailable,1.0,330,0.0,330,card,4.5,YES,Unavailable
+TXN00242,2025-11-07,CUST1034,Starbucks MI Road,Jaipur,Espresso,Coffee,grande,0.0,180,10.0,50,Card,4.5,no,Zomato
+TXN00243,2026-03-24,CUST1099,Starbucks MI Road,Jaipur,Pumpkin Spice Latte,Coffee,grande,-1.0,370,15.0,ERROR,card,4,Unavailable,Zomato
+TXN00244,09/04/2026,CUST1048,Starbucks CP,Delhi,Java Chip Frappuccino,Frappuccino,Tall,1.0,355,0.0,355,Cash,5,Yes,Zomato
+TXN00245,12-17-2025,CUST1127,starbucks Phoenix Mall,Mumbai,Americano,Coffee,VENTI,1.0,250,5.0,237.5,UPI,2,No,App
+TXN00246,2025-09-14,CUST1063,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Tall,-1.0,230,5.0,Unavailable,Wallet,3,no,Walk-in
+TXN00247,2025-02-13,CUST1076,Starbucks Hitech City,Hyderabad,Espresso,Coffee,Short,0.0,190,20.0,0,UPI,5,No,Unavailable
+TXN00248,05-02-2026,CUST1063,Starbucks Sector 17,Chandigarh,Cappuccino,Frappuccino,Tall,1.0,290,20.0,232,Card,4,YES,Delivery
+TXN00249,2025-12-22,CUST1096,Starbucks Hitech City,Hyderabad,Chocolate Croissant,Bakery,Unavailable,1.0,190,5.0,Unavailable,Unavailable,4,Unavailable,Zomato
+TXN00250,04-25-2026,CUST1141,Starbucks Hitech City,Hyderabad,Espresso,Coffee,grande,1.0,190,0.0,Unavailable,UPi,five,no,App
+TXN00251,2025-09-02,CUST1137,Starbucks Hitech City,Hyderabad,Blueberry Muffin,Bakery,Venti,1.0,190,0.0,190,card,6,YES,Unavailable
+TXN00252,2025-02-02,Unavailable,Starbucks Phoenix Mall,Mumbai,Iced Tea,Tea,grande,-1.0,210,0.0,-210,Card,1,YES,Swiggy
+TXN00253,04/03/2025,CUST1106,Starbucks Mall Road,Ludhiana,Pumpkin Spice Latte,Coffee,Tall,2.0,370,5.0,Unavailable,UPI,2,YES,Walk-in
+TXN00254,12/09/2025,CUST1106,Starbucks MI Road,Jaipur,Mocha,Coffee,Unavailable,1.0,310,5.0,294.5,Unavailable,five,Yes,Delivery
+TXN00255,2026-03-30,CUST1083,Starbucks Sector-35,Gurugram,Blueberry Muffin,Bakery,VENTI,-1.0,190,15.0,-161.5,Wallet,3,Unavailable,Swiggy
+TXN00256,01/01/2025,CUST1132,Starbucks Mall Road,Ludhiana,Java Chip Frappuccino,Frappuccino,VENTI,2.0,390,15.0,ERROR,Card,Unavailable,Unavailable,Zomato
+TXN00257,2025-06-09,CUST1149,Starbucks Sector 17,Chandigarh,Turkey Sandwich,Food,Unavailable,1.0,360,0.0,Unavailable,Wallet,2,Unavailable,Walk-in
+TXN00258,11-04-2025,CUST1097,Starbucks CP,Delhi,Chocolate Croissant,Bakery,Unavailable,1.0,free,5.0,Unavailable,Unavailable,6,Yes,Swiggy
+TXN00259,2025-11-23,CUST1056,Starbucks Koregaon Park,Pune,Chocolate Croissant,Bakery,Unavailable,1.0,210,20.0,168,UPI,1,No,Unavailable
+TXN00260,2025-02-20,CUST1128,Starbucks Mall Road,Ludhiana,Americano,Coffee,Unavailable,1.0,240,15.0,204,Wallet,2,no,Unavailable
+TXN00261,28/11/2025,CUST1108,STARBUCKS Cyber Hub,Bengaluru,Iced Tea,Tea,Tall,1.0,230,5.0,Unavailable,card,4,No,app
+TXN00262,2025-08-28,CUST1021,Starbucks Sector 17,Chandigarh,Pumpkin Spice Latte,Coffee,grande,0.0,415 INR,0.0,Unavailable,Card,Unavailable,YES,Walk-in
+TXN00263,22/09/2025,CUST1036,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Tall,3.0,230,5.0,655.5,card,five,No,App
+TXN00264,09/01/2025,CUST1092,Starbucks Mall Road,Ludhiana,Americano,Coffee,Unavailable,1.0,Unavailable,10.0,Unavailable,UPI,1,YES,Unavailable
+TXN00265,Unavailable,CUST1085,Starbucks Mall Road,Ludhiana,Spinach Feta Wrap,Food,VENTI,1.0,290,5.0,Unavailable,card,five,No,Zomato
+TXN00266,07/02/2026,CUST1133,Starbucks Cyber Hub,Bengaluru,Blueberry Muffin,Frappuccino,Short,1.0,190,5.0,Unavailable,Unavailable,5,No,Delivery
+TXN00267,2025-05-22,CUST1134,Starbucks Phoenix Mall,Mumbai,Java Chip Frappuccino,Frappuccino,Venti,3.0,375,5.0,Unavailable,Cash,five,YES,Walk-in
+TXN00268,2025-11-23,CUST1070,Starbucks Phoenix Mall,Mumbai,Espresso,Coffee,Short,1.0,215,0.0,Unavailable,Wallet,4.5,No,App
+TXN00269,2026-05-19,Unavailable,Starbucks Phoenix Mall,Mumbai,Cappuccino,FOOD,Short,-1.0,280,5.0,Unavailable,Wallet,4.5,No,Walk-in
+TXN00270,2026-03-14,CUST1097,Starbucks Mall Road,Ludhiana,Caramel Macchiato,Coffee,Tall,1.0,340,5.0,Unavailable,UPI,4.5,no,Unavailable
+TXN00271,2025-02-20,CUST1077,Starbucks Sector 17,Chandigarh,Spinach Feta Wrap,Food,grande,-1.0,300,5.0,Unavailable,Card,3.5,Unavailable,Delivery
+TXN00272,2025-05-19,CUST1006,Starbucks Phoenix Mall,Mumbai,Matcha Latte,Tea,Short,1.0,345,5.0,Unavailable,Unavailable,2,Yes,Zomato
+TXN00273,07/01/2026,CUST1130,Starbucks CP,Delhi,Cappuccino,Coffee,Tall,1.0,305,0.0,305,Cash,2,YES,Delivery
+TXN00274,2026-04-02,CUST1033,Starbucks Koregaon Park,Pune,Caramel Macchiato,Coffee,Unavailable,1.0,free,20.0,Unavailable,Card,5,Unavailable,Unavailable
+TXN00275,2025-01-07,CUST1142,Star bucks Mall Road,Ludhiana,Mocha,Coffee,Tall,0.0,345,5.0,Unavailable,UPi,3.5,Yes,Delivery
+TXN00276,15/06/2025,CUST1146,Starbucks MI Road,Jaipur,Spinach Feta Wrap,Frappuccino,VENTI,1.0,310,0.0,310,Card,2,Yes,Zomato
+TXN00277,05-18-2025,CUST1084,Starbucks CP,Delhi,Cappuccino,Coffee,Tall,1.0,290,20.0,232,UPI,five,Unavailable,Walk-in
+TXN00278,29/12/2025,CUST1133,Starbucks Hitech City,Hyderabad,Matcha Latte,Tea,Short,2.0,345,20.0,552,card,6,No,App
+TXN00279,2025-08-06,CUST1072,Starbucks Sector 17,Chandigarh,Cold Brew,Tea,VENTI,2.0,325,20.0,520,Card,3.5,Yes,app
+TXN00280,2025-12-13,CUST1009,Starbucks Cyber Hub,Bengaluru,Cappuccino,Coffee,VENTI,1.0,290,0.0,Unavailable,Unavailable,3,no,App
+TXN00281,Unavailable,CUST1007,Starbucks Sector 17,Chandigarh,Spinach Feta Wrap,Food,Venti,3.0,310,5.0,Unavailable,Unavailable,five,No,Walk-in
+TXN00282,not available,CUST1134,starbucks MI Road,Jaipur,Spinach Feta Wrap,Food,Short,3.0,310,0.0,930,UPI,5,no,App
+TXN00283,11-14-2025,CUST1025,Starbucks Mall Road,Ludhiana,Blueberry Muffin,Bakery,Venti,1.0,190,5.0,180.5,Wallet,4.5,Unavailable,App
+TXN00284,03-31-2025,CUST1026,Starbucks Koregaon Park,Pune,Matcha Latte,Tea,grande,-1.0,370,0.0,-370,Wallet,1,YES,Swiggy
+TXN00285,Unavailable,CUST1131,Starbucks Koregaon Park,Pune,Mocha,Coffee,grande,3.0,330,5.0,Unavailable,Cash,2,Unavailable,Zomato
+TXN00286,2026-04-28,CUST1022,starbucks Mall Road,Ludhiana,Pumpkin Spice Latte,Coffee,Unavailable,2.0,370,15.0,629,UPi,five,YES,app
+TXN00287,2026-04-25,CUST1119,Starbucks Indiranagar,Noida,Spinach Feta Wrap,Food,VENTI,-1.0,335,0.0,Unavailable,Unavailable,Unavailable,No,app
+TXN00288,12-26-2025,CUST1072,Starbucks CP,Delhi,Blueberry Muffin,Bakery,Unavailable,0.0,190,5.0,Unavailable,UPI,1,YES,Walk-in
+TXN00289,2025-06-12,CUST1053,Starbucks Indiranagar,Noida,Blueberry Muffin,Bakery,Unavailable,4.0,190,20.0,608,UPi,4,Unavailable,Swiggy
+TXN00290,2025-11-30,CUST1078,Starbucks Indiranagar,Noida,Caramel Macchiato,Coffee,VENTI,1.0,320,5.0,Unavailable,Unavailable,2,Unavailable,App
+TXN00291,26/10/2025,CUST1050,Starbucks Phoenix Mall,Mumbai,Cold Brew,Coffee,grande,1.0,300,0.0,Unavailable,Unavailable,3,Unavailable,app
+TXN00292,24/02/2025,CUST1091,Star bucks Koregaon Park,Pune,Cold Brew,Coffee,VENTI,-1.0,310,20.0,-198,Unavailable,3,no,Unavailable
+TXN00293,2026-01-04,CUST1032,Starbucks Cyber Hub,Bengaluru,Java Chip Frappuccino,Frappuccino,Unavailable,1.0,390,5.0,Unavailable,Cash,3,Yes,Delivery
+TXN00294,2026-03-11,CUST1047,Starbucks Phoenix Mall,Mumbai,Iced Tea,Tea,Short,0.0,Unavailable,20.0,Unavailable,card,6,no,app
+TXN00295,23/03/2025,CUST1071,Starbucks Indiranagar,Noida,Caffè Latte,Coffee,Grande,0.0,285,15.0,0,Wallet,2,no,Walk-in
+TXN00296,2025-01-12,CUST1120,Starbucks Sector 17,Chandigarh,Iced Tea,Tea,grande,1.0,255,10.0,Unavailable,card,6,No,App
+TXN00297,22/02/2025,CUST1006,Starbucks Mall Road,Ludhiana,Chocolate Croissant,Bakery,grande,2.0,225,10.0,405,card,1,No,Zomato
+TXN00298,01-14-2026,CUST1060,Starbucks Phoenix Mall,Mumbai,Americano,Coffee,VENTI,1.0,230,0.0,230,UPI,6,No,Delivery
+TXN00299,2025-12-20,CUST1029,Starbucks Phoenix Mall,Mumbai,Spinach Feta Wrap,Food,Unavailable,4.0,310,5.0,1178,Wallet,Unavailable,no,Unavailable
+TXN00300,Unavailable,CUST1090,Starbucks Mall Road,Ludhiana,Matcha Latte,Tea,grande,4.0,345,0.0,1380,UPi,5,YES,Zomato
+TXN00301,19/07/2025,CUST1046,Starbucks Cyber Hub,Bengaluru,Blueberry Muffin,Bakery,Tall,1.0,₹205,20.0,Unavailable,Unavailable,Unavailable,Yes,Walk-in
+TXN00302,28/02/2025,CUST1030,starbucks Sector 17,Chandigarh,Iced Tea,Tea,Venti,2.0,220,10.0,396,UPI,4,Unavailable,Delivery
+TXN00303,11-28-2025,CUST1070,Starbucks MI Road,Jaipur,Americano,Coffee,Tall,1.0,265,5.0,Unavailable,card,5,YES,Delivery
+TXN00304,18/03/2026,CUST1113,Starbucks CP,Delhi,Matcha Latte,Food,Unavailable,4.0,345,0.0,Unavailable,Card,Unavailable,no,Delivery
+TXN00305,2025-01-04,CUST1017,Starbucks Hitech City,Hyderabad,Iced Tea,Tea,VENTI,4.0,Unavailable,10.0,Unavailable,card,3,no,App
+TXN00306,24/10/2025,CUST1098,STARBUCKS Hitech City,Hyderabad,Iced Tea,Tea,Grande,1.0,245,15.0,208.25,UPi,five,no,Walk-in
+TXN00307,2025-09-02,CUST1138,Star bucks Cyber Hub,Bengaluru,Turkey Sandwich,Food,Unavailable,2.0,375,0.0,750,Card,1,Yes,app
+TXN00308,15/04/2026,Unavailable,Starbucks Cyber Hub,Bengaluru,Caffè Latte,Coffee,Short,1.0,300,20.0,Unavailable,Cash,2,Yes,Delivery
+TXN00309,2025-03-07,CUST1056,Starbucks Phoenix Mall,Mumbai,Iced Tea,Frappuccino,Unavailable,1.0,255,5.0,Unavailable,UPi,6,Yes,Delivery
+TXN00310,05-04-2025,CUST1043,Starbucks Phoenix Mall,Mumbai,Cappuccino,Coffee,Tall,2.0,315,0.0,630,Cash,6,Yes,Unavailable
+TXN00311,10-18-2025,CUST1121,Starbucks Phoenix Mall,Mumbai,Blueberry Muffin,Bakery,Unavailable,1.0,190,0.0,190,Unavailable,1,No,Delivery
+TXN00312,2025-11-05,CUST1060,Starbucks CP,Delhi,Pumpkin Spice Latte,Coffee,VENTI,1.0,390,5.0,Unavailable,Wallet,6,no,Swiggy
+TXN00313,2025-02-14,CUST1053,Starbucks Phoenix Mall,Mumbai,Americano,Tea,Unavailable,1.0,275,5.0,Unavailable,Card,Unavailable,Yes,App
+TXN00314,2026-04-01,CUST1083,starbucks CP,Delhi,Turkey Sandwich,Food,Short,1.0,350,5.0,Unavailable,Unavailable,five,No,Unavailable
+TXN00315,2026-04-11,CUST1117,Starbucks MI Road,Jaipur,Turkey Sandwich,Food,Short,1.0,360,5.0,Unavailable,UPi,1,No,App
+TXN00316,2025-12-18,CUST1040,Starbucks Mall Road,Ludhiana,Chocolate Croissant,Bakery,Venti,1.0,210,0.0,210,Wallet,Unavailable,Yes,Unavailable
+TXN00317,2025-09-10,CUST1056,STARBUCKS Koregaon Park,Pune,Spinach Feta Wrap,Food,Unavailable,2.0,335,5.0,Unavailable,Card,Unavailable,Yes,Unavailable
+TXN00318,2025-04-11,CUST1142,Starbucks Mall Road,Ludhiana,Chocolate Croissant,Bakery,Short,4.0,190,5.0,Unavailable,Cash,3.5,YES,Zomato
+TXN00319,01-25-2025,CUST1103,Starbucks Phoenix Mall,Mumbai,Mocha,Coffee,Tall,1.0,310,5.0,Unavailable,UPI,5,no,app
+TXN00320,Unavailable,CUST1093,Starbucks Cyber Hub,Bengaluru,Espresso,coffee,Tall,2.0,225,5.0,Unavailable,UPi,6,YES,Delivery
+TXN00321,Unavailable,CUST1053,Starbucks Hitech City,Hyderabad,Iced Tea,Tea,grande,-1.0,210,5.0,-199.5,Unavailable,3,YES,App
+TXN00322,2025-10-27,CUST1016,Starbucks CP,Delhi,Cold Brew,Coffee,Venti,0.0,310,5.0,Unavailable,card,five,Yes,Walk-in
+TXN00323,Unavailable,CUST1033,Starbucks Cyber Hub,Bengaluru,Caramel Macchiato,Coffee,Tall,1.0,355,5.0,Unavailable,card,3,No,Walk-in
+TXN00324,01/12/2025,CUST1135,Starbucks Indiranagar,Noida,Caffè Latte,Coffee,Venti,-1.0,275,15.0,-233.75,card,3.5,No,Zomato
+TXN00325,2025-06-20,CUST1046,Starbucks Koregaon Park,Pune,Mocha,Coffee,Venti,1.0,330,0.0,330,Cash,4.5,No,Walk-in
+TXN00326,2025-02-05,CUST1114,Starbucks Hitech City,Hyderabad,Caffè Latte,Coffee,Tall,1.0,285,5.0,Unavailable,Unavailable,5,no,Delivery
+TXN00327,2025-10-30,CUST1146,Starbucks Hitech City,Hyderabad,Matcha Latte,Tea,Unavailable,1.0,335,5.0,Unavailable,UPi,five,Unavailable,Walk-in
+TXN00328,2025-08-14,CUST1014,Star bucks Koregaon Park,Pune,Chocolate Croissant,Bakery,grande,1.0,190,5.0,Unavailable,Wallet,2,Yes,Walk-in
+TXN00329,2025-02-27,CUST1109,Starbucks Cyber Hub,Bengaluru,Espresso,Coffee,VENTI,1.0,215,5.0,Unavailable,card,3.5,no,Walk-in
+TXN00330,03-11-2026,CUST1022,Starbucks Phoenix Mall,Mumbai,Mocha,Coffee,VENTI,4.0,330,5.0,Unavailable,UPI,5,Unavailable,Unavailable
+TXN00331,05-21-2025,CUST1074,Starbucks Indiranagar,Noida,Cold Brew,Frappuccino,grande,1.0,free,5.0,Unavailable,Unavailable,Unavailable,Unavailable,Unavailable
+TXN00332,2025-10-22,Unavailable,Starbucks CP,Delhi,Mocha,Coffee,VENTI,2.0,320,10.0,576,Unavailable,Unavailable,Unavailable,Unavailable
+TXN00333,18/01/2025,CUST1037,Starbucks Sector-35,Gurugram,Spinach Feta Wrap,Food,grande,0.0,325,0.0,Unavailable,UPi,4.5,no,app
+TXN00334,2025-06-21,CUST1077,Starbucks Phoenix Mall,Mumbai,Caffè Latte,Coffee,VENTI,1.0,285,5.0,Unavailable,Cash,4,Yes,Delivery
+TXN00335,2026-05-31,CUST1143,starbucks Phoenix Mall,Mumbai,Espresso,Coffee,Grande,0.0,225,20.0,0,Unavailable,4.5,no,Walk-in
+TXN00336,29/03/2026,CUST1007,Starbucks Hitech City,Hyderabad,Cold Brew,Coffee,Short,0.0,290,15.0,ERROR,card,5,No,Swiggy
+TXN00337,2025-02-13,CUST1131,Starbucks Mall Road,Ludhiana,Caramel Macchiato,Coffee,Tall,1.0,340,0.0,340,UPI,1,YES,App
+TXN00338,2025-12-26,CUST1071,Starbucks Cyber Hub,Bengaluru,Blueberry Muffin,Bakery,Short,1.0,170,5.0,Unavailable,UPI,6,Yes,App
+TXN00339,2025-04-12,CUST1121,Starbucks Sector 17,Chandigarh,Espresso,Coffee,Grande,2.0,190,0.0,380,Cash,five,YES,Unavailable
+TXN00340,2025-05-20,CUST1073,Starbucks CP,Delhi,Java Chip Frappuccino,Frappuccino,Unavailable,4.0,free,0.0,Unavailable,card,4.5,no,Zomato
+TXN00341,2026-03-15,CUST1121,Starbucks Koregaon Park,Pune,Iced Tea,Tea,Grande,2.0,230,5.0,Unavailable,Unavailable,3.5,no,Walk-in
+TXN00342,23/07/2025,CUST1103,Starbucks CP,Delhi,Cold Brew,Coffee,grande,1.0,310,0.0,Unavailable,card,3,Unavailable,Unavailable
+TXN00343,2026-04-11,CUST1127,Starbucks Koregaon Park,Pune,Cappuccino,Coffee,Grande,4.0,290,5.0,Unavailable,Unavailable,five,Unavailable,App
+TXN00344,2025-03-20,CUST1075,Starbucks Indiranagar,Noida,Caramel Macchiato,Coffee,VENTI,3.0,355,0.0,1065,Card,5,Yes,Unavailable
+TXN00345,03/02/2025,CUST1077,Starbucks Mall Road,Ludhiana,Turkey Sandwich,Food,grande,0.0,360,15.0,0,Unavailable,3.5,no,Walk-in
+TXN00346,2025-06-10,CUST1096,Starbucks Mall Road,Ludhiana,Pumpkin Spice Latte,Coffee,VENTI,-1.0,405,5.0,Unavailable,Card,6,Yes,App
+TXN00347,2026-01-01,CUST1062,STARBUCKS MI Road,Jaipur,Caramel Macchiato,Coffee,Grande,1.0,340,0.0,Unavailable,card,4.5,Yes,app
+TXN00348,2025-10-01,CUST1005,Starbucks Sector-35,Gurugram,Caramel Macchiato,Merchandise,Grande,0.0,320,20.0,0,Unavailable,6,Yes,Swiggy
+TXN00349,23/03/2026,CUST1019,Starbucks Koregaon Park,Pune,Cappuccino,Coffee,Tall,3.0,315,0.0,945,card,6,Unavailable,Unavailable
+TXN00350,2026-05-02,CUST1019,Starbucks Hitech City,Hyderabad,Blueberry Muffin,Bakery,Unavailable,1.0,205,0.0,205,UPi,6,No,Unavailable
+TXN00351,11/07/2025,CUST1119,Starbucks Sector 17,Chandigarh,Java Chip Frappuccino,Frappuccino,Unavailable,0.0,375,5.0,Unavailable,Card,3,Unavailable,Swiggy
+TXN00352,2025-03-07,CUST1073,Starbucks MI Road,Jaipur,Cappuccino,Coffee,Unavailable,1.0,280,10.0,252,Wallet,3.5,Yes,Delivery
+TXN00353,2025-02-07,CUST1007,Starbucks MI Road,Jaipur,Mocha,Frappuccino,Venti,0.0,330,5.0,Unavailable,Card,3.5,Unavailable,Unavailable
+TXN00354,03/04/2025,CUST1035,Starbucks MI Road,Jaipur,Blueberry Muffin,Tea,Grande,1.0,190,10.0,Unavailable,card,2,no,Walk-in
+TXN00355,2025-08-30,CUST1044,Starbucks MI Road,Jaipur,Mocha,Coffee,Tall,3.0,355,15.0,905.25,Unavailable,6,Unavailable,app
+TXN00356,29/05/2025,Unavailable,Starbucks Cyber Hub,Bengaluru,Chocolate Croissant,Bakery,Short,-1.0,₹210,20.0,Unavailable,card,Unavailable,Unavailable,Unavailable
+TXN00357,Unavailable,CUST1077,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Short,3.0,265,0.0,795,Cash,five,no,app
+TXN00358,2026-05-19,CUST1085,Starbucks CP,Delhi,Turkey Sandwich,Food,Venti,4.0,375,0.0,1500,card,5,Unavailable,Walk-in
+TXN00359,08/07/2025,CUST1000,Starbucks Sector 17,Chandigarh,Cappuccino,Coffee,Grande,-1.0,305,15.0,-259.25,UPI,Unavailable,No,Swiggy
+TXN00360,17/05/2025,CUST1083,Starbucks Mall Road,Ludhiana,Espresso,Coffee,Venti,1.0,225,20.0,180,Unavailable,4.5,no,Swiggy
+TXN00361,22/06/2025,CUST1066,Starbucks Mall Road,Ludhiana,Caffè Latte,Coffee,Grande,1.0,285,5.0,Unavailable,Card,2,Unavailable,Unavailable
+TXN00362,2025-09-30,CUST1033,Starbucks Cyber Hub,Bengaluru,Blueberry Muffin,Bakery,grande,0.0,190,0.0,0,Wallet,4,no,Delivery
+TXN00363,12/09/2025,CUST1117,Starbucks Indiranagar,Noida,Java Chip Frappuccino,Frappuccino,Unavailable,2.0,355,10.0,639,Wallet,4,Unavailable,Unavailable
+TXN00364,2025-08-29,Unavailable,STARBUCKS Sector-35,Gurugram,Chocolate Croissant,Bakery,Unavailable,2.0,210,0.0,420,UPi,2,No,App
+TXN00365,2025-11-21,CUST1080,Starbucks Mall Road,Ludhiana,Pumpkin Spice Latte,Coffee,grande,-1.0,380,5.0,Unavailable,UPi,4.5,no,Zomato
+TXN00366,Unavailable,CUST1112,Starbucks MI Road,Jaipur,Turkey Sandwich,Food,Tall,2.0,360,5.0,Unavailable,Unavailable,4.5,YES,Delivery
+TXN00367,2026-05-12,CUST1037,Starbucks Hitech City,Hyderabad,Chocolate Croissant,Bakery,Venti,0.0,190,0.0,0,Cash,Unavailable,Unavailable,Zomato
+TXN00368,2025-03-20,CUST1024,Starbucks Indiranagar,Noida,Pumpkin Spice Latte,Coffee,Grande,2.0,₹390,0.0,Unavailable,UPi,five,No,App
+TXN00369,04/12/2025,CUST1115,Starbucks Indiranagar,Noida,Cold Brew,Coffee,Venti,0.0,325,5.0,Unavailable,Wallet,5,Yes,Zomato
+TXN00370,07-02-2025,Unavailable,STARBUCKS MI Road,Jaipur,Cappuccino,Coffee,grande,1.0,305,5.0,Unavailable,Cash,6,Yes,Zomato
+TXN00371,07-24-2025,CUST1121,Starbucks CP,Delhi,Matcha Latte,Tea,Venti,2.0,360,0.0,Unavailable,Unavailable,4.5,Unavailable,Unavailable
+TXN00372,2025-03-27,CUST1122,Starbucks Sector-35,Gurugram,Cold Brew,Merchandise,grande,2.0,310,0.0,620,Wallet,Unavailable,Unavailable,Unavailable
+TXN00373,27/02/2026,CUST1145,Starbucks CP,Delhi,Americano,Coffee,Tall,1.0,250,0.0,250,UPI,five,Unavailable,Unavailable
+TXN00374,01/11/2025,CUST1115,Starbucks MI Road,Jaipur,Caramel Macchiato,Coffee,Venti,4.0,365,0.0,1460,Wallet,2,No,Walk-in
+TXN00375,2025-01-14,CUST1103,starbucks Sector 17,Chandigarh,Chocolate Croissant,Bakery,Unavailable,1.0,210,20.0,168,card,five,Unavailable,app
+TXN00376,2025-07-15,CUST1048,Starbucks Phoenix Mall,Mumbai,Chocolate Croissant,Bakery,Short,4.0,225,10.0,810,Unavailable,2,Unavailable,Swiggy
+TXN00377,2026-04-01,CUST1115,starbucks Sector 17,Chandigarh,Cold Brew,Coffee,Unavailable,1.0,310,5.0,Unavailable,Card,3.5,YES,App
+TXN00378,2025-10-25,CUST1131,Starbucks Indiranagar,Noida,Cold Brew,Coffee,Unavailable,4.0,325,20.0,1040,Wallet,Unavailable,Unavailable,App
+TXN00379,2025-12-22,CUST1041,Star bucks Mall Road,Ludhiana,Espresso,Merchandise,Short,1.0,200,10.0,180,Wallet,3.5,Unavailable,app
+TXN00380,not available,CUST1053,Starbucks MI Road,Jaipur,Turkey Sandwich,Food,Venti,0.0,385,0.0,0,Cash,5,No,Delivery
+TXN00381,02-18-2025,CUST1091,Starbucks Cyber Hub,Bengaluru,Pumpkin Spice Latte,Coffee,Tall,4.0,415,5.0,Unavailable,UPI,5,YES,Unavailable
+TXN00382,12-30-2025,CUST1068,Starbucks Koregaon Park,Pune,Cold Brew,Coffee,Grande,-1.0,290,5.0,-275.5,Card,Unavailable,no,Unavailable
+TXN00383,2025-06-21,CUST1092,Starbucks Sector 17,Chandigarh,Spinach Feta Wrap,Food,Unavailable,1.0,290,0.0,Unavailable,UPI,five,No,app
+TXN00384,2026-05-01,CUST1021,Starbucks Sector 17,Chandigarh,Cappuccino,Coffee,Short,2.0,270,5.0,Unavailable,Cash,3.5,Unavailable,Unavailable
+TXN00385,2026-01-06,CUST1002,Starbucks Mall Road,Ludhiana,Blueberry Muffin,Bakery,Unavailable,4.0,215,20.0,Unavailable,Cash,3.5,no,App
+TXN00386,2025-11-08,CUST1071,Starbucks Koregaon Park,Pune,Java Chip Frappuccino,Frappuccino,Short,1.0,390,0.0,440,Unavailable,five,Unavailable,app
+TXN00387,Unavailable,CUST1054,STARBUCKS CP,Delhi,Turkey Sandwich,Food,Venti,4.0,375,5.0,1425,Card,5,Yes,Zomato
+TXN00388,2025-09-23,CUST1031,Starbucks Sector 17,Chandigarh,Mocha,Coffee,Short,4.0,330,5.0,Unavailable,Wallet,2,YES,Zomato
+TXN00389,18/04/2025,CUST1092,Starbucks Sector-35,Gurugram,Americano,Coffee,Unavailable,1.0,275,0.0,Unavailable,UPI,3.5,Yes,App
+TXN00390,2026-02-17,CUST1127,Starbucks Hitech City,Hyderabad,Java Chip Frappuccino,Frappuccino,Unavailable,2.0,375,5.0,Unavailable,Unavailable,2,No,Delivery
+TXN00391,12/04/2026,CUST1143,starbucks Sector-35,Gurugram,Espresso,Coffee,Unavailable,0.0,215,0.0,0,UPI,five,Yes,app
+TXN00392,2025-11-07,CUST1036,Starbucks Koregaon Park,Pune,Pumpkin Spice Latte,Coffee,Short,1.0,390,0.0,Unavailable,Cash,4.5,Unavailable,Unavailable
+TXN00393,2026-04-09,CUST1033,Starbucks Mall Road,Ludhiana,Caffè Latte,Coffee,Unavailable,1.0,285,0.0,285,Unavailable,3.5,No,app
+TXN00394,12-14-2025,CUST1071,Starbucks Cyber Hub,Bengaluru,Cold Brew,Coffee,grande,1.0,325,20.0,Unavailable,UPI,3.5,Unavailable,Walk-in
+TXN00395,03/05/2026,CUST1136,Starbucks Sector-35,Gurugram,Mocha,Coffee,Unavailable,1.0,330 INR,0.0,Unavailable,UPI,6,Unavailable,app
+TXN00396,2025-11-21,CUST1025,Starbucks Phoenix Mall,Mumbai,Java Chip Frappuccino,Frappuccino,Grande,1.0,375,15.0,318.75,Cash,3.5,YES,Unavailable
+TXN00397,2025-04-12,CUST1082,Starbucks Sector 17,Chandigarh,Iced Tea,Tea,Tall,3.0,230,0.0,690,Wallet,1,No,Swiggy
+TXN00398,2026-02-21,CUST1059,Starbucks Sector 17,Chandigarh,Matcha Latte,Tea,Venti,4.0,₹345,0.0,Unavailable,card,5,Unavailable,Unavailable
+TXN00399,2026-03-10,CUST1118,Starbucks Phoenix Mall,Mumbai,Matcha Latte,Unavailable,Venti,1.0,335,15.0,284.75,Card,five,Yes,Unavailable
+TXN00400,16/10/2025,CUST1144,Starbucks Indiranagar,Noida,Americano,Coffee,Venti,4.0,275,15.0,935,card,4,no,Swiggy
+TXN00401,2025-11-26,Unavailable,Starbucks Mall Road,Ludhiana,Pumpkin Spice Latte,Coffee,Unavailable,3.0,415,15.0,1058.25,Card,5,Yes,Delivery
+TXN00402,03-21-2025,CUST1113,Starbucks CP,Delhi,Java Chip Frappuccino,Frappuccino,VENTI,0.0,390,20.0,0,Unavailable,five,No,App
+TXN00403,01-02-2026,CUST1077,Starbucks Sector 17,Chandigarh,Cold Brew,Coffee,VENTI,0.0,300,0.0,0,Card,4,YES,Unavailable
+TXN00404,28/05/2026,CUST1144,STARBUCKS MI Road,Jaipur,Turkey Sandwich,Food,Venti,2.0,360,0.0,720,UPI,4,No,Zomato
+TXN00405,Unavailable,CUST1013,Starbucks Sector 17,Chandigarh,Turkey Sandwich,Food,Unavailable,-1.0,350,10.0,-315,card,4,Yes,Unavailable
+TXN00406,2026-04-05,CUST1085,Starbucks Koregaon Park,Pune,Matcha Latte,Tea,Unavailable,1.0,370,5.0,ERROR,UPI,1,No,Swiggy
+TXN00407,2025-12-09,CUST1061,Starbucks MI Road,Jaipur,Caramel Macchiato,Coffee,Short,1.0,320,0.0,320,UPI,Unavailable,Unavailable,Unavailable
+TXN00408,01-22-2026,CUST1016,Starbucks Sector 17,Chandigarh,Blueberry Muffin,Bakery,Tall,1.0,190,0.0,Unavailable,card,2,Unavailable,Unavailable
+TXN00409,25/02/2026,CUST1002,Starbucks MI Road,Jaipur,Cold Brew,Coffee,Grande,-1.0,290,0.0,-290,UPi,5,Unavailable,App
+TXN00410,11/03/2025,CUST1130,Starbucks Sector 17,Chandigarh,Matcha Latte,Tea,Unavailable,2.0,345,0.0,690,Cash,2,No,Delivery
+TXN00411,2025-05-30,CUST1087,Starbucks Hitech City,Hyderabad,Blueberry Muffin,Bakery,Venti,1.0,190,20.0,Unavailable,Card,five,No,App
+TXN00412,24/04/2026,CUST1085,Starbucks Cyber Hub,Bengaluru,Java Chip Frappuccino,Frappuccino,Unavailable,2.0,365,0.0,730,Card,4.5,no,Swiggy
+TXN00413,2025-12-06,CUST1001,Starbucks Cyber Hub,Bengaluru,Turkey Sandwich,Food,Venti,2.0,375,5.0,Unavailable,card,6,no,Swiggy
+TXN00414,2025-06-28,CUST1044,Starbucks Cyber Hub,Bengaluru,Iced Tea,Tea,Tall,3.0,255,0.0,765,Cash,1,YES,Walk-in
+TXN00415,2025-09-03,CUST1043,Starbucks Cyber Hub,Bengaluru,Caffè Latte,Coffee,Unavailable,4.0,275,0.0,1100,UPI,4.5,Yes,Delivery
+TXN00416,2025-11-22,CUST1011,Starbucks MI Road,Jaipur,Turkey Sandwich,Food,grande,2.0,385,5.0,731.5,Cash,five,YES,Swiggy
+TXN00417,25/03/2025,CUST1016,Starbucks Mall Road,Ludhiana,Caffè Latte,Coffee,VENTI,1.0,285,5.0,Unavailable,Unavailable,6,Unavailable,Unavailable
+TXN00418,2026-02-15,CUST1051,Starbucks Mall Road,Ludhiana,Caramel Macchiato,Coffee,Unavailable,-1.0,340,5.0,Unavailable,Unavailable,Unavailable,Unavailable,Delivery
+TXN00419,2025-12-27,CUST1131,Starbucks CP,Delhi,Turkey Sandwich,Food,Unavailable,-1.0,360,0.0,-360,UPi,3,no,app
+TXN00420,2025-03-26,CUST1139,Starbucks CP,Delhi,Americano,Coffee,Grande,0.0,240,5.0,0,UPI,5,Yes,app
+TXN00421,09/10/2025,CUST1035,Starbucks Koregaon Park,Pune,Caffè Latte,Coffee,grande,2.0,285,15.0,484.5,Card,5,YES,Zomato
+TXN00422,2025-06-02,CUST1053,Starbucks Sector-35,Gurugram,Spinach Feta Wrap,Food,Unavailable,4.0,310,0.0,1240,Unavailable,Unavailable,YES,Walk-in
+TXN00423,31/01/2025,CUST1032,Starbucks Mall Road,Ludhiana,Cappuccino,Coffee,VENTI,4.0,290,5.0,1102,UPi,Unavailable,No,Unavailable
+TXN00424,23/05/2025,CUST1146,starbucks Indiranagar,Noida,Java Chip Frappuccino,Frappuccino,Unavailable,-1.0,375,10.0,-337.5,UPI,4.5,Unavailable,Unavailable
+TXN00425,01/07/2025,Unavailable,Starbucks CP,Delhi,Mocha,Coffee,grande,1.0,330,5.0,Unavailable,Wallet,5,No,Zomato
+TXN00426,not available,CUST1137,Starbucks Sector 17,Chandigarh,Iced Tea,Tea,Short,1.0,230,15.0,195.5,Cash,five,No,Zomato
+TXN00427,2025-07-27,CUST1036,Starbucks Indiranagar,Noida,Java Chip Frappuccino,Frappuccino,Short,0.0,390,0.0,0,UPi,6,Unavailable,Unavailable
+TXN00428,11-01-2025,CUST1044,Starbucks Hitech City,Hyderabad,Matcha Latte,Tea,Unavailable,1.0,325,10.0,292.5,Unavailable,Unavailable,no,Delivery
+TXN00429,26/10/2025,CUST1055,Starbucks Koregaon Park,Pune,Chocolate Croissant,Bakery,Grande,1.0,210,5.0,199.5,UPi,3,Yes,Walk-in
+TXN00430,2025-02-15,CUST1118,Starbucks Koregaon Park,Pune,Espresso,Coffee,Unavailable,4.0,200,5.0,Unavailable,Card,3,Yes,Zomato
+TXN00431,2025-09-06,CUST1071,Star bucks Mall Road,Ludhiana,Cold Brew,Coffee,Venti,3.0,300,5.0,Unavailable,card,Unavailable,Yes,Unavailable
+TXN00432,05/02/2025,CUST1133,Starbucks Hitech City,Hyderabad,Caramel Macchiato,Coffee,Unavailable,2.0,355,0.0,710,card,Unavailable,no,App
+TXN00433,Unavailable,CUST1049,Starbucks Cyber Hub,Bengaluru,Pumpkin Spice Latte,coffee,Grande,2.0,415,5.0,788.5,Cash,4.5,Unavailable,Delivery
+TXN00434,2026-02-09,CUST1027,Starbucks Cyber Hub,Bengaluru,Caffè Latte,Coffee,VENTI,3.0,265,15.0,675.75,Card,five,no,Swiggy
+TXN00435,25/02/2026,CUST1026,Starbucks CP,Delhi,Matcha Latte,Tea,Venti,2.0,360,15.0,612,card,1,Yes,app
+TXN00436,2026-05-09,CUST1149,Starbucks Hitech City,Hyderabad,Iced Tea,Tea,Tall,1.0,245,15.0,208.25,Wallet,3,Yes,Walk-in
+TXN00437,2025-10-31,CUST1009,Starbucks Phoenix Mall,Mumbai,Americano,Coffee,Unavailable,2.0,250,0.0,500,UPi,1,No,Zomato
+TXN00438,2025-08-23,CUST1138,Starbucks Koregaon Park,Pune,Cappuccino,Coffee,Short,1.0,315,5.0,Unavailable,Unavailable,3.5,Unavailable,app
+TXN00439,2025-07-29,CUST1140,starbucks Cyber Hub,Bengaluru,Caramel Macchiato,Coffee,Grande,1.0,320,5.0,Unavailable,Unavailable,2,Unavailable,Unavailable
+TXN00440,2025-10-20,CUST1123,Starbucks Indiranagar,Noida,Americano,Coffee,Venti,2.0,240,20.0,384,Unavailable,3,no,Unavailable
+TXN00441,2025-03-27,CUST1141,Starbucks MI Road,Jaipur,Espresso,Coffee,Unavailable,1.0,200,5.0,Unavailable,card,1,no,Unavailable
+TXN00442,Unavailable,CUST1095,Star bucks Cyber Hub,Bengaluru,Cold Brew,Coffee,Grande,0.0,325,5.0,0,Unavailable,3,Yes,Walk-in
+TXN00443,2026-05-16,CUST1098,Starbucks Hitech City,Hyderabad,Java Chip Frappuccino,Frappuccino,Tall,2.0,365,20.0,584,UPi,5,Unavailable,App
+TXN00444,06-15-2025,CUST1098,Starbucks Koregaon Park,Pune,Chocolate Croissant,Bakery,Short,2.0,200,5.0,Unavailable,Unavailable,3,No,Unavailable
+TXN00445,02/04/2025,CUST1088,Starbucks Koregaon Park,Pune,Americano,Coffee,Unavailable,-1.0,250,20.0,-200,card,6,Yes,Delivery
+TXN00446,2026-03-18,CUST1034,Starbucks MI Road,Jaipur,Spinach Feta Wrap,Food,Unavailable,1.0,290,20.0,232,Wallet,five,No,Swiggy
+TXN00447,2025-04-22,CUST1096,Starbucks Mall Road,Ludhiana,Caffè Latte,Coffee,Unavailable,2.0,310,10.0,508,UPI,3.5,Yes,App
+TXN00448,2025-01-08,CUST1068,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Unavailable,1.0,230,0.0,Unavailable,UPi,2,YES,app
+TXN00449,2025-12-05,CUST1102,Starbucks Sector 17,Chandigarh,Cappuccino,Coffee,grande,4.0,290,20.0,Unavailable,Wallet,6,YES,Unavailable
+TXN00450,2025-11-26,CUST1011,Star bucks Cyber Hub,Bengaluru,Pumpkin Spice Latte,Coffee,Short,0.0,415,5.0,Unavailable,Unavailable,3.5,no,Walk-in
+TXN00451,2025-05-27,CUST1022,Starbucks Indiranagar,Noida,Cappuccino,Coffee,Unavailable,1.0,290,20.0,232,Cash,5,no,Walk-in
+TXN00452,Unavailable,CUST1071,Star bucks CP,Delhi,Matcha Latte,Tea,Grande,2.0,335,5.0,636.5,Cash,3,Unavailable,Unavailable
+TXN00453,2026-01-26,CUST1066,Starbucks MI Road,Jaipur,Cold Brew,Coffee,Grande,2.0,310,0.0,ERROR,UPi,4.5,No,app
+TXN00454,02-02-2026,CUST1032,Starbucks Sector-35,Gurugram,Java Chip Frappuccino,Frappuccino,Unavailable,2.0,355,0.0,710,Card,6,Unavailable,Unavailable
+TXN00455,2025-05-30,CUST1128,Starbucks Phoenix Mall,Mumbai,Cappuccino,Coffee,Unavailable,2.0,290,5.0,Unavailable,Wallet,Unavailable,no,Zomato
+TXN00456,2025-02-23,CUST1100,Starbucks Cyber Hub,Bengaluru,Chocolate Croissant,Bakery,Venti,3.0,190,0.0,570,Card,4,Unavailable,Unavailable
+TXN00457,Unavailable,CUST1140,Starbucks CP,Delhi,Cappuccino,Coffee,Tall,3.0,290,20.0,696,card,3.5,no,Delivery
+TXN00458,20/07/2025,CUST1147,Starbucks Cyber Hub,Bengaluru,Pumpkin Spice Latte,Coffee,Unavailable,0.0,405,10.0,0,Unavailable,3,Unavailable,Delivery
+TXN00459,21/03/2026,Unavailable,Starbucks Sector-35,Gurugram,Turkey Sandwich,Merchandise,Venti,1.0,360,0.0,360,Unavailable,2,Unavailable,Walk-in
+TXN00460,26/03/2025,CUST1130,starbucks Hitech City,Hyderabad,Blueberry Muffin,Bakery,Unavailable,4.0,215,10.0,774,card,Unavailable,Unavailable,Walk-in
+TXN00461,Unavailable,CUST1047,Starbucks Indiranagar,Noida,Blueberry Muffin,Bakery,Unavailable,0.0,190,20.0,0,UPI,5,Unavailable,Walk-in
+TXN00462,2025-11-18,CUST1052,STARBUCKS Phoenix Mall,Mumbai,Blueberry Muffin,Bakery,Tall,1.0,205,0.0,205,UPI,6,Yes,Zomato
+TXN00463,28/10/2025,CUST1080,Star bucks Koregaon Park,Pune,Cappuccino,Coffee,Short,4.0,280,0.0,1120,UPI,4,Unavailable,App
+TXN00464,03/01/2026,CUST1108,Starbucks Sector-35,Gurugram,Mocha,Bakery,Venti,2.0,330,0.0,660,Unavailable,6,no,Walk-in
+TXN00465,2025-10-03,CUST1130,Starbucks CP,Delhi,Americano,Coffee,Unavailable,1.0,265,5.0,Unavailable,Unavailable,4,Yes,Swiggy
+TXN00466,2025-04-02,CUST1069,Starbucks CP,Delhi,Cold Brew,Coffee,Grande,1.0,310,5.0,Unavailable,Unavailable,3.5,No,Unavailable
+TXN00467,2026-05-17,CUST1146,Starbucks Indiranagar,Noida,Cold Brew,Coffee,Tall,1.0,290,5.0,Unavailable,Cash,5,YES,Unavailable
+TXN00468,11/05/2025,CUST1039,Starbucks MI Road,Jaipur,Caramel Macchiato,Coffee,grande,-1.0,355,5.0,Unavailable,Card,6,Unavailable,app
+TXN00469,2025-12-29,CUST1109,Starbucks Phoenix Mall,Mumbai,Chocolate Croissant,Bakery,Short,1.0,225,20.0,Unavailable,card,Unavailable,Unavailable,Walk-in
+TXN00470,19/06/2025,CUST1141,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Unavailable,1.0,250,0.0,ERROR,Unavailable,2,Unavailable,Walk-in
+TXN00471,13/02/2025,CUST1134,Starbucks Hitech City,Hyderabad,Java Chip Frappuccino,Food,Venti,1.0,400,20.0,320,UPi,five,Yes,Unavailable
+TXN00472,2025-05-01,CUST1067,Starbucks Sector-35,Gurugram,Matcha Latte,Tea,Short,1.0,345,15.0,293.25,card,4,Unavailable,App
+TXN00473,2025-12-03,CUST1089,Starbucks Sector 17,Chandigarh,Turkey Sandwich,Food,Grande,0.0,360,0.0,0,Unavailable,4.5,no,Swiggy
+TXN00474,2025-09-14,CUST1076,Starbucks Sector 17,Chandigarh,Cold Brew,Coffee,grande,4.0,300,0.0,1200,UPI,Unavailable,no,Unavailable
+TXN00475,2025-02-11,CUST1084,STARBUCKS Cyber Hub,Bengaluru,Caramel Macchiato,Coffee,Unavailable,4.0,355,0.0,1420,card,4.5,Yes,Unavailable
+TXN00476,not available,CUST1032,Starbucks Sector-35,Gurugram,Matcha Latte,Tea,Short,1.0,370,15.0,314.5,Card,3.5,Unavailable,app
+TXN00477,26/03/2025,CUST1130,Starbucks Koregaon Park,Pune,Java Chip Frappuccino,Frappuccino,Unavailable,1.0,390,20.0,ERROR,Wallet,Unavailable,no,Walk-in
+TXN00478,2025-05-16,CUST1049,Starbucks Phoenix Mall,Mumbai,Chocolate Croissant,Bakery,Grande,1.0,210,5.0,199.5,Card,6,no,Unavailable
+TXN00479,2026-03-14,CUST1093,Starbucks MI Road,Jaipur,Espresso,Coffee,VENTI,2.0,215,5.0,408.5,Card,4.5,No,App
+TXN00480,2025-09-16,CUST1028,starbucks Indiranagar,Noida,Caffè Latte,Merchandise,VENTI,2.0,275 INR,5.0,Unavailable,UPi,5,No,Zomato
+TXN00481,2025-07-15,CUST1025,Star bucks CP,Delhi,Mocha,Coffee,Unavailable,1.0,310,0.0,310,Wallet,6,Unavailable,Delivery
+TXN00482,2026-04-05,CUST1123,Starbucks Hitech City,Hyderabad,Caffè Latte,Coffee,Tall,-1.0,285,10.0,-256.5,Cash,five,Unavailable,Zomato
+TXN00483,03-18-2025,CUST1098,Starbucks MI Road,Jaipur,Chocolate Croissant,Bakery,Short,1.0,210,0.0,210,Cash,4,Yes,Delivery
+TXN00484,2025-09-23,CUST1068,Starbucks Sector-35,Gurugram,Pumpkin Spice Latte,Coffee,grande,1.0,405,5.0,ERROR,Card,Unavailable,Unavailable,Delivery
+TXN00485,02/01/2025,CUST1094,Starbucks Cyber Hub,Bengaluru,Turkey Sandwich,Food,grande,2.0,350,0.0,700,Cash,4,no,Zomato
+TXN00486,17/01/2025,CUST1097,Starbucks Koregaon Park,Pune,Cappuccino,Coffee,Short,1.0,305,15.0,259.25,Unavailable,4,No,app
+TXN00487,not available,CUST1126,Starbucks Cyber Hub,Bengaluru,Americano,Coffee,Short,4.0,265,0.0,1060,Unavailable,Unavailable,Unavailable,Delivery
+TXN00488,2025-05-27,CUST1103,Starbucks Indiranagar,Noida,Iced Tea,Tea,Tall,1.0,230,0.0,230,UPI,3.5,no,Unavailable
+TXN00489,2025-01-14,CUST1086,Starbucks CP,Delhi,Caffè Latte,Coffee,Venti,1.0,265,0.0,365,card,4,YES,Unavailable
+TXN00490,2025-04-16,CUST1106,Starbucks Sector 17,Chandigarh,Caramel Macchiato,Coffee,Unavailable,2.0,340,5.0,Unavailable,Cash,2,YES,Zomato
+TXN00491,2025-08-18,CUST1085,Starbucks Phoenix Mall,Mumbai,Mocha,Coffee,Tall,4.0,345,0.0,1380,Cash,Unavailable,No,Unavailable
+TXN00492,Unavailable,CUST1094,Starbucks Indiranagar,Noida,Espresso,Coffee,Grande,4.0,190,0.0,760,Card,5,No,Delivery
+TXN00493,2025-10-13,CUST1032,Starbucks Indiranagar,Noida,Cappuccino,Coffee,Unavailable,0.0,290,0.0,0,Unavailable,2,Unavailable,Unavailable
+TXN00494,2026-05-20,CUST1107,Starbucks MI Road,Jaipur,Pumpkin Spice Latte,Coffee,Short,1.0,390,5.0,370.5,UPI,3.5,No,app
+TXN00495,2025-04-23,CUST1035,Starbucks Mall Road,Ludhiana,Caffè Latte,Coffee,Unavailable,1.0,310,15.0,263.5,Wallet,five,No,Swiggy
+TXN00496,04-19-2025,Unavailable,Starbucks MI Road,Jaipur,Caffè Latte,Coffee,Tall,1.0,265,20.0,212,Unavailable,1,No,Delivery
+TXN00497,2026-03-31,CUST1015,Starbucks MI Road,Jaipur,Matcha Latte,Tea,Tall,-1.0,360 INR,10.0,Unavailable,Unavailable,Unavailable,no,Unavailable
+TXN00498,2025-06-10,CUST1032,Starbucks Cyber Hub,Bengaluru,Espresso,Coffee,Venti,1.0,200,5.0,Unavailable,UPI,5,Unavailable,Unavailable
+TXN00499,2026-03-11,CUST1019,Starbucks Sector 17,Chandigarh,Matcha Latte,Tea,Short,4.0,360,20.0,1152,card,3,No,Walk-in
+TXN00500,2025-02-03,CUST1145,Starbucks Cyber Hub,Bengaluru,Cold Brew,Coffee,Tall,2.0,290,5.0,551,Card,five,YES,Walk-in
+TXN00501,05/02/2026,CUST1024,Starbucks Cyber Hub,Bengaluru,Americano,Merchandise,Venti,2.0,275,20.0,440,Card,five,Unavailable,Unavailable
+TXN00502,2025-03-22,CUST1055,Starbucks Phoenix Mall,Mumbai,Matcha Latte,Tea,Venti,1.0,370,10.0,333,UPi,3,no,Delivery
+TXN00503,18/03/2025,CUST1127,Starbucks Cyber Hub,Bengaluru,Cappuccino,Coffee,Grande,4.0,free,0.0,Unavailable,Unavailable,3.5,Yes,Unavailable
+TXN00504,02/04/2025,CUST1117,Starbucks Indiranagar,Noida,Cappuccino,Coffee,Unavailable,1.0,290,0.0,290,Cash,5,Yes,Unavailable
+TXN00505,18/11/2025,CUST1129,Starbucks Phoenix Mall,Mumbai,Caffè Latte,Coffee,Tall,4.0,285,20.0,912,Card,6,Unavailable,Swiggy
+TXN00506,2026-02-13,CUST1118,Starbucks MI Road,Jaipur,Chocolate Croissant,Bakery,Unavailable,1.0,190,0.0,190,UPI,5,Yes,Delivery
+TXN00507,13/05/2026,CUST1029,STARBUCKS Hitech City,Hyderabad,Chocolate Croissant,Bakery,Venti,4.0,210 INR,5.0,Unavailable,Wallet,3.5,YES,App
+TXN00508,10/03/2026,CUST1021,starbucks Cyber Hub,Bengaluru,Pumpkin Spice Latte,Coffee,Unavailable,3.0,370,20.0,988,Wallet,Unavailable,Unavailable,Zomato
+TXN00509,2026-03-06,CUST1041,Starbucks Phoenix Mall,Mumbai,Caramel Macchiato,Coffee,Unavailable,4.0,320,15.0,1088,Card,5,Unavailable,Swiggy
+TXN00510,2025-06-01,CUST1104,STARBUCKS Hitech City,Hyderabad,Cold Brew,Coffee,Venti,1.0,310,0.0,Unavailable,Unavailable,4.5,Unavailable,Walk-in
+TXN00511,Unavailable,CUST1003,Starbucks Indiranagar,Noida,Caffè Latte,Coffee,grande,4.0,275,5.0,Unavailable,UPI,3,Unavailable,Unavailable
+TXN00512,2025-12-10,CUST1109,Starbucks Sector-35,Gurugram,Iced Tea,Tea,Unavailable,4.0,230,15.0,782,Unavailable,4.5,YES,Unavailable
+TXN00513,26/02/2026,CUST1139,Starbucks CP,Delhi,Iced Tea,Tea,Tall,1.0,230,0.0,230,card,2,no,Swiggy
+TXN00514,Unavailable,Unavailable,Starbucks Mall Road,Ludhiana,Mocha,Coffee,grande,4.0,330,0.0,1320,card,4,YES,Unavailable
+TXN00515,Unavailable,CUST1061,Starbucks Phoenix Mall,Mumbai,Iced Tea,Tea,Unavailable,1.0,230,0.0,230,Card,1,Unavailable,Unavailable
+TXN00516,08-25-2025,CUST1129,Starbucks Sector-35,Gurugram,Caramel Macchiato,Coffee,grande,1.0,340,20.0,272,Cash,4.5,YES,Swiggy
+TXN00517,22/03/2025,CUST1033,Starbucks Indiranagar,Noida,Cold Brew,Coffee,Venti,1.0,310,0.0,310,Wallet,1,Unavailable,Swiggy
+TXN00518,not available,CUST1028,Starbucks Sector 17,Chandigarh,Americano,Coffee,Venti,2.0,275,20.0,Unavailable,UPI,5,Yes,Unavailable
+TXN00519,not available,CUST1053,Starbucks Mall Road,Ludhiana,Spinach Feta Wrap,Food,Unavailable,2.0,335,20.0,536,Cash,2,No,Zomato
+TXN00520,2026-05-11,CUST1065,Starbucks Hitech City,Hyderabad,Caffè Latte,Coffee,Venti,1.0,300,0.0,Unavailable,Wallet,2,YES,Walk-in
